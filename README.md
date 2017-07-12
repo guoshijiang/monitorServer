@@ -3,7 +3,7 @@
 ### 一、项目简介
 #### 1.项目架构
 图片1： 
-    ![图片1](https://github.com/guoshijiang/monitorServer/blob/master/tmp/QQ%E6%88%AA%E5%9B%BE20170712163055.p  "图片1")
+    ![图片1](https://github.com/guoshijiang/monitorServer/blob/master/board/QQ%E5%9B%BE%E7%89%8720170712174543.png "图片1")
 #### 2.项目编译
 执行以下命令即可编译项目
 gcc -o minitorServer minitorServer.c minitorUlaneServerOp.c threadPool.c ulaneLog.c config.c cJson.c parseJson.c createJson.c ulaneJsonLog.c jsonCheck.c queueMsg.c ./libulanemysql.so ./libulanesocket.so -I ../inc/ -I/usr/include/mysql/ -L/usr/lib64/mysql/ -lmysqlclient -lstdc++ -lpthread -ldl -lrt -lm -luuid
