@@ -1,0 +1,1 @@
+gcc -o minitorServer minitorServer.c minitorUlaneServerOp.c threadPool.c ulaneLog.c config.c cJson.c parseJson.c createJson.c ulaneJsonLog.c jsonCheck.c queueMsg.c ./libulanemysql.so ./libulanesocket.so -I ../inc/ -I/usr/include/mysql/ -L/usr/lib64/mysql/ -lmysqlclient -lstdc++ -lpthread -ldl -lrt -lm -luuid

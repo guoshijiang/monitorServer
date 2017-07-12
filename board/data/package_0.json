@@ -1,0 +1,14 @@
+{
+	"msg_id":	"1000000001",
+	"event_name":	"skillqueueinfo",
+	"event_body":	[{
+			"Split":	"6301",
+			"queuenum":	0
+		},{
+			"Split":	"6301",
+			"queuenum":	0
+		},{
+			"Split":	"6301",
+			"queuenum":	0
+		}]
+}eof

@@ -1,0 +1,44 @@
+{
+	"msg_id":	"1000000001",
+	"event_name":	"agentstatelog",
+	"event_body":	[{
+			"AgentID":	"2001",
+			"Station":	"9001",
+			"LogonTime":	"2017-06-18 21:11:28",
+			"State":	"4",  
+			"AUX_Code":	"0",
+			"Begintime":	"2017-06-18 21:12:06",
+			"pre_state":	"1",
+			"Pre_aux":	"0",
+			"StateInfo":	"",
+			"CustPhone":	"",
+			"CallDirect":	"",
+			"Split":	"6301|6302|6303|6304|6305|6306|6307|6308|6309|6310|6311"
+		},{
+			"AgentID":	"2002",
+			"Station":	"9002",
+			"LogonTime":	"2017-06-18 21:11:28",
+			"State":	"4",  
+			"AUX_Code":	"0",
+			"Begintime":	"2017-06-18 21:12:06",
+			"pre_state":	"1",
+			"Pre_aux":	"0",
+			"StateInfo":	"",
+			"CustPhone":	"",
+			"CallDirect":	"",
+			"Split":	"6301|6302|6303|6304|6305|6306|6307|6308|6309|6310|6311"
+		},{
+			"AgentID":	"2003",
+			"Station":	"9003",
+			"LogonTime":	"2017-06-18 21:11:28",
+			"State":	"4",  
+			"AUX_Code":	"0",
+			"Begintime":	"2017-06-18 21:12:06",
+			"pre_state":	"1",
+			"Pre_aux":	"0",
+			"StateInfo":	"",
+			"CustPhone":	"",
+			"CallDirect":	"",
+			"Split":	"6301|6302|6303|6304|6305|6306|6307|6308|6309|6310|6311"
+		}]
+}eof

@@ -1,0 +1,4496 @@
+[2017.07.13 00:06:38] [DEBUG] [ERRNO is 2000] System init ok [minitorUlaneServerOp.c] [142]
+[2017.07.13 00:06:38] [DEBUG] [SUCCESS] Server system init ok [minitorServer.c] [164]
+[2017.07.13 00:06:38] [DEBUG] [SUCCESS] Server databases system init ok [minitorServer.c] [173]
+[2017.07.13 00:06:41] [ERROR] [ERRNO is 5] Client login [minitorServer.c] [241]
+[2017.07.13 00:06:41] [ERROR] [SUCCESS] ThreadID:139930671953664 [minitorServer.c] [255]
+[2017.07.13 00:06:44] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+ [minitorServer.c] [112]
+[2017.07.13 00:06:47] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+ [minitorServer.c] [112]
+[2017.07.13 00:06:50] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+ [minitorServer.c] [112]
+[2017.07.13 00:06:53] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+ [minitorServer.c] [112]
+[2017.07.13 00:06:56] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+ [minitorServer.c] [112]
+[2017.07.13 00:06:59] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+ [minitorServer.c] [112]
+[2017.07.13 00:07:02] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+ [minitorServer.c] [112]
+[2017.07.13 00:07:05] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+ [minitorServer.c] [112]
+[2017.07.13 00:07:08] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+ [minitorServer.c] [112]
+[2017.07.13 00:07:11] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+ [minitorServer.c] [112]
+[2017.07.13 00:07:11] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+ [minitorServer.c] [112]
+[2017.07.13 00:07:11] [ERROR] [ERRNO is 4002] Client logout [minitorServer.c] [82]
+[2017.07.13 00:07:11] [ERROR] [ERRNO is 4002] Child Thread:139930671953664 exiting [minitorServer.c] [114]
+[2017.07.13 00:07:20] [ERROR] [ERRNO is 1000] Server is closing [minitorUlaneServerOp.c] [171]
+[2017.07.13 00:07:23] [DEBUG] [ERRNO is 2000] System init ok [minitorUlaneServerOp.c] [142]
+[2017.07.13 00:07:23] [DEBUG] [SUCCESS] Server system init ok [minitorServer.c] [164]
+[2017.07.13 00:07:23] [DEBUG] [SUCCESS] Server databases system init ok [minitorServer.c] [173]
+[2017.07.13 00:07:26] [ERROR] [ERRNO is 5] Client login [minitorServer.c] [241]
+[2017.07.13 00:07:26] [ERROR] [SUCCESS] ThreadID:140333700110080 [minitorServer.c] [255]
+[2017.07.13 00:07:29] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:07:32] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:07:35] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:07:38] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:07:41] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:07:41] [ERROR] [ERRNO is 1000] Server is closing [minitorUlaneServerOp.c] [171]
+[2017.07.13 00:08:09] [DEBUG] [ERRNO is 2000] System init ok [minitorUlaneServerOp.c] [142]
+[2017.07.13 00:08:09] [DEBUG] [SUCCESS] Server system init ok [minitorServer.c] [164]
+[2017.07.13 00:08:09] [DEBUG] [SUCCESS] Server databases system init ok [minitorServer.c] [173]
+[2017.07.13 00:08:12] [ERROR] [ERRNO is 5] Client login [minitorServer.c] [241]
+[2017.07.13 00:08:12] [ERROR] [SUCCESS] ThreadID:139645058553600 [minitorServer.c] [255]
+[2017.07.13 00:08:18] [ERROR] [ERRNO is 4002] outData=werwerweof
+ [minitorServer.c] [112]
+[2017.07.13 00:08:48] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+ [minitorServer.c] [112]
+[2017.07.13 00:08:48] [ERROR] [ERRNO is 4002] outData=	"agentid":	"2001",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+ [minitorServer.c] [112]
+[2017.07.13 00:09:18] [ERROR] [ERRNO is 6] Client login [minitorServer.c] [241]
+[2017.07.13 00:09:18] [ERROR] [SUCCESS] ThreadID:139645048063744 [minitorServer.c] [255]
+[2017.07.13 00:09:19] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2001",
+ [minitorServer.c] [112]
+[2017.07.13 00:09:19] [ERROR] [ERRNO is 4002] outData=	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+0E6BF0B3",
+	"agentid":	"2001",
+ [minitorServer.c] [112]
+[2017.07.13 00:09:21] [ERROR] [SUCCESS] MsgData.clients_info[iSockfd].agentId=2001
+ [minitorUlaneServerOp.c] [475]
+[2017.07.13 00:09:21] [ERROR] [SUCCESS] cmdName=agentlogon,msgID=0FFEC786-388C-417E-9474-D27F0E6BF0B3,agentid=2001,agenttype=agenttype_2
+ [minitorUlaneServerOp.c] [476]
+[2017.07.13 00:09:21] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2001",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+ [minitorServer.c] [112]
+[2017.07.13 00:09:38] [ERROR] [SUCCESS] MsgData.clients_info[iSockfd].agentId=2001
+ [minitorUlaneServerOp.c] [475]
+[2017.07.13 00:09:38] [ERROR] [SUCCESS] cmdName=agentlogon,msgID=0FFEC786-388C-417E-9474-D27F0E6BF0B3,agentid=2001,agenttype=agenttype_2
+ [minitorUlaneServerOp.c] [476]
+[2017.07.13 00:09:38] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2001",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+ [minitorServer.c] [112]
+[2017.07.13 00:09:38] [ERROR] [ERRNO is 4002] outData=	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2001",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+f
+ [minitorServer.c] [112]
+[2017.07.13 00:13:51] [ERROR] [ERRNO is 7] Client login [minitorServer.c] [241]
+[2017.07.13 00:13:51] [ERROR] [SUCCESS] ThreadID:139645037573888 [minitorServer.c] [255]
+[2017.07.13 00:13:54] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:13:57] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:14:00] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:14:03] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:14:04] [ERROR] [ERRNO is 8] Client login [minitorServer.c] [241]
+[2017.07.13 00:14:04] [ERROR] [SUCCESS] ThreadID:139644821829376 [minitorServer.c] [255]
+[2017.07.13 00:14:06] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:14:09] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:14:12] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:14:15] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:14:18] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:14:21] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:14:21] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [112]
+[2017.07.13 00:14:21] [ERROR] [ERRNO is 4002] Client logout [minitorServer.c] [82]
+[2017.07.13 00:14:21] [ERROR] [ERRNO is 4002] Child Thread:139645037573888 exiting [minitorServer.c] [114]
+[2017.07.13 00:17:09] [ERROR] [ERRNO is 1000] Server is closing [minitorUlaneServerOp.c] [171]
+[2017.07.13 00:17:15] [DEBUG] [ERRNO is 2000] System init ok [minitorUlaneServerOp.c] [142]
+[2017.07.13 00:17:15] [DEBUG] [SUCCESS] Server system init ok [minitorServer.c] [166]
+[2017.07.13 00:17:15] [DEBUG] [SUCCESS] Server databases system init ok [minitorServer.c] [175]
+[2017.07.13 00:17:25] [ERROR] [ERRNO is 5] Client login [minitorServer.c] [243]
+[2017.07.13 00:17:25] [ERROR] [SUCCESS] ThreadID:140468168914688 [minitorServer.c] [257]
+[2017.07.13 00:17:29] [ERROR] [ERRNO is 6] Client login [minitorServer.c] [243]
+[2017.07.13 00:17:29] [ERROR] [SUCCESS] ThreadID:140468158424832 [minitorServer.c] [257]
+[2017.07.13 00:17:34] [ERROR] [ERRNO is 7] Client login [minitorServer.c] [243]
+[2017.07.13 00:17:34] [ERROR] [SUCCESS] ThreadID:140468147934976 [minitorServer.c] [257]
+[2017.07.13 00:17:37] [ERROR] [ERRNO is 8] Client login [minitorServer.c] [243]
+[2017.07.13 00:17:37] [ERROR] [SUCCESS] ThreadID:140468137445120 [minitorServer.c] [257]
+[2017.07.13 00:17:42] [ERROR] [ERRNO is 9] Client login [minitorServer.c] [243]
+[2017.07.13 00:17:42] [ERROR] [SUCCESS] ThreadID:140468126955264 [minitorServer.c] [257]
+[2017.07.13 00:17:45] [ERROR] [ERRNO is 5] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:45] [ERROR] [ERRNO is 6] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:45] [ERROR] [ERRNO is 7] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:45] [ERROR] [ERRNO is 8] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:45] [INFO] [ERRNO is 200] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:17:45] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:17:45] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:17:45] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:17:45] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:17:45] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:17:48] [ERROR] [ERRNO is 5] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:48] [ERROR] [ERRNO is 6] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:48] [ERROR] [ERRNO is 7] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:48] [ERROR] [ERRNO is 8] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:48] [INFO] [ERRNO is 200] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:17:48] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:17:48] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:17:48] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:17:48] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:17:48] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:17:51] [ERROR] [ERRNO is 5] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:51] [ERROR] [ERRNO is 6] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:51] [ERROR] [ERRNO is 7] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:51] [ERROR] [ERRNO is 8] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:51] [INFO] [ERRNO is 200] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:17:51] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:17:51] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:17:51] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:17:51] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:17:51] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:17:54] [ERROR] [ERRNO is 5] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:54] [ERROR] [ERRNO is 6] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:54] [ERROR] [ERRNO is 7] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:54] [ERROR] [ERRNO is 8] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:54] [INFO] [ERRNO is 200] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:17:54] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:17:54] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:17:54] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:17:54] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:17:54] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:17:57] [ERROR] [ERRNO is 5] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:57] [ERROR] [ERRNO is 6] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:57] [ERROR] [ERRNO is 7] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:57] [ERROR] [ERRNO is 8] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:17:57] [INFO] [ERRNO is 200] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:17:57] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:17:57] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:17:57] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:17:57] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:17:57] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:18:00] [ERROR] [ERRNO is 5] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:00] [ERROR] [ERRNO is 6] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:00] [ERROR] [ERRNO is 7] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:00] [ERROR] [ERRNO is 8] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:00] [INFO] [ERRNO is 200] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:18:00] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:18:00] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:18:00] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:18:00] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:18:00] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:18:03] [ERROR] [ERRNO is 5] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:03] [ERROR] [ERRNO is 6] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:03] [ERROR] [ERRNO is 7] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:03] [ERROR] [ERRNO is 8] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:03] [INFO] [ERRNO is 200] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:18:03] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:18:03] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:18:03] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:18:03] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:18:03] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:18:06] [ERROR] [ERRNO is 5] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:06] [ERROR] [ERRNO is 6] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:06] [ERROR] [ERRNO is 7] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:06] [ERROR] [ERRNO is 8] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:06] [INFO] [ERRNO is 200] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:18:06] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:18:06] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:18:06] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:18:06] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:18:06] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:18:09] [ERROR] [ERRNO is 5] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:09] [ERROR] [ERRNO is 6] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:09] [ERROR] [ERRNO is 7] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:09] [ERROR] [ERRNO is 8] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:09] [INFO] [ERRNO is 200] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:18:09] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:18:09] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:18:09] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:18:09] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:18:09] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:18:12] [ERROR] [ERRNO is 5] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:12] [ERROR] [ERRNO is 6] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:12] [ERROR] [ERRNO is 7] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:12] [ERROR] [ERRNO is 8] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:12] [INFO] [ERRNO is 200] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:18:12] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:18:12] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:18:12] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:18:12] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:18:12] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:18:12] [ERROR] [ERRNO is 5] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:12] [ERROR] [ERRNO is 6] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:12] [ERROR] [ERRNO is 7] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:12] [ERROR] [ERRNO is 8] Msg = {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:12] [INFO] [ERRNO is 200] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:18:12] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:18:12] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:18:12] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:18:12] [INFO] [ERRNO is 6000] {
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:18:12] [ERROR] [ERRNO is 4002] outData={
+	"cmdName": "cmd_raisehand",
+	"agentid": "1002",
+	"raisehandid": "1001",
+	"eventtype": "",
+	"eventitem": "",
+	"station": "agenttype_1"
+	"memo": "agenttype_1"
+	"raisehandtime": "agenttype_1"
+	"requestagent":	"1001"
+	"answertype": "agenttype_1"
+	"organizationid": "agenttype_1"
+	"organizationname":	"agenttype_1"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:18:12] [ERROR] [ERRNO is 4002] Client logout [minitorServer.c] [84]
+[2017.07.13 00:18:12] [ERROR] [ERRNO is 4002] Child Thread:140468126955264 exiting [minitorServer.c] [116]
+[2017.07.13 00:18:17] [ERROR] [ERRNO is 5] Msg = oh... I dropped out -_-!!
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:17] [ERROR] [ERRNO is 7] Msg = oh... I dropped out -_-!!
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:17] [ERROR] [ERRNO is 8] Msg = oh... I dropped out -_-!!
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:18:17] [INFO] [ERRNO is 200] oh... I dropped out -_-!!
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:18:17] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:18:17] [INFO] [ERRNO is 6000] oh... I dropped out -_-!!
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:18:17] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:18:17] [INFO] [ERRNO is 6000] oh... I dropped out -_-!!
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:18:17] [ERROR] [ERRNO is 4002] outData=oh... I dropped out -_-!!
+ [minitorServer.c] [114]
+[2017.07.13 00:18:17] [ERROR] [ERRNO is 4002] Client logout [minitorServer.c] [84]
+[2017.07.13 00:18:17] [ERROR] [ERRNO is 4002] Child Thread:140468158424832 exiting [minitorServer.c] [116]
+[2017.07.13 00:23:36] [ERROR] [SUCCESS] MsgData.clients_info[iSockfd].agentId=2001
+ [minitorUlaneServerOp.c] [474]
+[2017.07.13 00:23:36] [ERROR] [SUCCESS] cmdName=agentlogon,msgID=0FFEC786-388C-417E-9474-D27F0E6BF0B3,agentid=2001,agenttype=agenttype_2
+ [minitorUlaneServerOp.c] [475]
+[2017.07.13 00:23:36] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2001",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:23:56] [ERROR] [SUCCESS] MsgData.clients_info[iSockfd].agentId=2002
+ [minitorUlaneServerOp.c] [474]
+[2017.07.13 00:23:56] [ERROR] [SUCCESS] cmdName=agentlogon,msgID=0FFEC786-388C-417E-9474-D27F0E6BF0B3,agentid=2002,agenttype=agenttype_2
+ [minitorUlaneServerOp.c] [475]
+[2017.07.13 00:23:56] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:24:34] [ERROR] [SUCCESS] MsgData.clients_info[iSockfd].agentId=2003
+ [minitorUlaneServerOp.c] [474]
+[2017.07.13 00:24:34] [ERROR] [SUCCESS] cmdName=agentlogon,msgID=0FFEC786-388C-417E-9474-D27F0E6BF0B3,agentid=2003,agenttype=agenttype_2
+ [minitorUlaneServerOp.c] [475]
+[2017.07.13 00:24:34] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+ [minitorServer.c] [114]
+[2017.07.13 00:26:10] [ERROR] [ERRNO is 10] Client login [minitorServer.c] [243]
+[2017.07.13 00:26:10] [ERROR] [SUCCESS] ThreadID:140468158424832 [minitorServer.c] [257]
+[2017.07.13 00:26:13] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:26:16] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:26:19] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:26:22] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:26:25] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:26:28] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:26:31] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:26:34] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:26:37] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:26:40] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:26:40] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:26:40] [ERROR] [ERRNO is 4002] Client logout [minitorServer.c] [84]
+[2017.07.13 00:26:40] [ERROR] [ERRNO is 4002] Child Thread:140468158424832 exiting [minitorServer.c] [116]
+[2017.07.13 00:27:06] [ERROR] [ERRNO is 11] Client login [minitorServer.c] [243]
+[2017.07.13 00:27:06] [ERROR] [SUCCESS] ThreadID:140468158424832 [minitorServer.c] [257]
+[2017.07.13 00:27:09] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:09] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:09] [ERROR] [ERRNO is 8] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:09] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:12] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:12] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:12] [ERROR] [ERRNO is 8] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:12] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:15] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:15] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:15] [ERROR] [ERRNO is 8] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:15] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:18] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:18] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:18] [ERROR] [ERRNO is 8] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:18] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:21] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:21] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:21] [ERROR] [ERRNO is 8] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:21] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:24] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:24] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:24] [ERROR] [ERRNO is 8] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:24] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:27] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:27] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:27] [ERROR] [ERRNO is 8] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:27] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:30] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:30] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:30] [ERROR] [ERRNO is 8] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:30] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:33] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:33] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:33] [ERROR] [ERRNO is 8] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:33] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:35] [ERROR] [ERRNO is 5] Msg = oh... I dropped out -_-!!
+
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:27:35] [ERROR] [ERRNO is 7] Msg = oh... I dropped out -_-!!
+
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:27:35] [ERROR] [ERRNO is 11] Msg = oh... I dropped out -_-!!
+
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:27:35] [INFO] [ERRNO is 200] oh... I dropped out -_-!!
+
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:27:35] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:27:35] [INFO] [ERRNO is 6000] oh... I dropped out -_-!!
+
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:27:35] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:27:35] [INFO] [ERRNO is 6000] oh... I dropped out -_-!!
+
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:27:35] [ERROR] [ERRNO is 4002] outData=oh... I dropped out -_-!!
+
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:35] [ERROR] [ERRNO is 4002] Client logout [minitorServer.c] [84]
+[2017.07.13 00:27:35] [ERROR] [ERRNO is 4002] Child Thread:140468137445120 exiting [minitorServer.c] [116]
+[2017.07.13 00:27:36] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:36] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:36] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:36] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:36] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:36] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:36] [ERROR] [ERRNO is 4002] Client logout [minitorServer.c] [84]
+[2017.07.13 00:27:36] [ERROR] [ERRNO is 4002] Child Thread:140468158424832 exiting [minitorServer.c] [116]
+[2017.07.13 00:27:41] [ERROR] [ERRNO is 12] Client login [minitorServer.c] [243]
+[2017.07.13 00:27:41] [ERROR] [SUCCESS] ThreadID:140468158424832 [minitorServer.c] [257]
+[2017.07.13 00:27:44] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:44] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:44] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:47] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:47] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:47] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:50] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:50] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:50] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:53] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:53] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:53] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:55] [ERROR] [ERRNO is 13] Client login [minitorServer.c] [243]
+[2017.07.13 00:27:55] [ERROR] [SUCCESS] ThreadID:140468137445120 [minitorServer.c] [257]
+[2017.07.13 00:27:56] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:56] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:56] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:27:59] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:59] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:27:59] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:28:02] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:02] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:02] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:28:05] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:05] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:05] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:28:05] [ERROR] [ERRNO is 4002] Client logout [minitorServer.c] [84]
+[2017.07.13 00:28:05] [ERROR] [ERRNO is 4002] Child Thread:140468158424832 exiting [minitorServer.c] [116]
+[2017.07.13 00:28:06] [ERROR] [ERRNO is 14] Client login [minitorServer.c] [243]
+[2017.07.13 00:28:06] [ERROR] [SUCCESS] ThreadID:140468158424832 [minitorServer.c] [257]
+[2017.07.13 00:28:09] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:09] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:09] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:28:12] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:12] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:12] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:28:15] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:15] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:15] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:28:18] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:18] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:18] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:28:21] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:21] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:21] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:28:24] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:24] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:24] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:28:26] [ERROR] [ERRNO is 5] Msg = oh... I dropped out -_-!!
+
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:28:26] [ERROR] [ERRNO is 7] Msg = oh... I dropped out -_-!!
+
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:28:26] [ERROR] [ERRNO is 14] Msg = oh... I dropped out -_-!!
+
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:28:26] [INFO] [ERRNO is 200] oh... I dropped out -_-!!
+
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:28:26] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:28:26] [INFO] [ERRNO is 6000] oh... I dropped out -_-!!
+
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:28:26] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:28:26] [INFO] [ERRNO is 6000] oh... I dropped out -_-!!
+
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:28:26] [ERROR] [ERRNO is 4002] outData=oh... I dropped out -_-!!
+
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2003",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+ [minitorServer.c] [114]
+[2017.07.13 00:28:26] [ERROR] [ERRNO is 4002] Client logout [minitorServer.c] [84]
+[2017.07.13 00:28:26] [ERROR] [ERRNO is 4002] Child Thread:140468137445120 exiting [minitorServer.c] [116]
+[2017.07.13 00:28:27] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:27] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:27] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:28:30] [ERROR] [ERRNO is 5] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:30] [ERROR] [ERRNO is 7] inJson = {
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+
+ [minitorUlaneServerOp.c] [413]
+[2017.07.13 00:28:30] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":	"cmd_sendmessage",
+	"agentid":	"1001",
+	"agentname":	"agentname",
+	"raisehandid":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"toagentid":	"2001|2002|2003",
+	"toagent" : "2003",
+	"station":	"9011",
+	"sendtime":	"",
+	"messagetype":	"2",
+	"message":	"aaaaaaaa",
+	"organizationid":	"",
+	"organizationname":	""
+}
+
+ [minitorServer.c] [114]
+[2017.07.13 00:28:30] [ERROR] [ERRNO is 1000] Server is closing [minitorUlaneServerOp.c] [171]
+[2017.07.13 00:28:54] [DEBUG] [ERRNO is 2000] System init ok [minitorUlaneServerOp.c] [142]
+[2017.07.13 00:28:54] [DEBUG] [SUCCESS] Server system init ok [minitorServer.c] [166]
+[2017.07.13 00:28:54] [DEBUG] [SUCCESS] Server databases system init ok [minitorServer.c] [175]
+[2017.07.13 00:29:02] [ERROR] [ERRNO is 5] Client login [minitorServer.c] [243]
+[2017.07.13 00:29:02] [ERROR] [SUCCESS] ThreadID:140161999185664 [minitorServer.c] [257]
+[2017.07.13 00:29:05] [ERROR] [ERRNO is 6] Client login [minitorServer.c] [243]
+[2017.07.13 00:29:05] [ERROR] [SUCCESS] ThreadID:140161988695808 [minitorServer.c] [257]
+[2017.07.13 00:29:08] [ERROR] [ERRNO is 7] Client login [minitorServer.c] [243]
+[2017.07.13 00:29:08] [ERROR] [SUCCESS] ThreadID:140161978205952 [minitorServer.c] [257]
+[2017.07.13 00:29:27] [ERROR] [SUCCESS] MsgData.clients_info[iSockfd].agentId=2001
+ [minitorUlaneServerOp.c] [474]
+[2017.07.13 00:29:27] [ERROR] [SUCCESS] cmdName=agentlogon,msgID=0FFEC786-388C-417E-9474-D27F0E6BF0B3,agentid=2001,agenttype=agenttype_2
+ [minitorUlaneServerOp.c] [475]
+[2017.07.13 00:29:27] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2001",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+ [minitorServer.c] [114]
+[2017.07.13 00:29:42] [ERROR] [ERRNO is 5] Msg = {
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:29:42] [ERROR] [ERRNO is 7] Msg = {
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:29:42] [INFO] [ERRNO is 200] {
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:29:42] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:29:42] [INFO] [ERRNO is 6000] {
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:29:42] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:29:42] [INFO] [ERRNO is 6000] {
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:29:42] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+ [minitorServer.c] [114]
+[2017.07.13 00:29:42] [ERROR] [ERRNO is 5] Msg = 	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:29:42] [ERROR] [ERRNO is 7] Msg = 	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:29:42] [INFO] [ERRNO is 200] 	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:29:42] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:29:42] [INFO] [ERRNO is 6000] 	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:29:56] [DEBUG] [ERRNO is 2000] System init ok [minitorUlaneServerOp.c] [142]
+[2017.07.13 00:29:56] [DEBUG] [SUCCESS] Server system init ok [minitorServer.c] [166]
+[2017.07.13 00:29:56] [DEBUG] [SUCCESS] Server databases system init ok [minitorServer.c] [175]
+[2017.07.13 00:30:01] [ERROR] [ERRNO is 5] Client login [minitorServer.c] [243]
+[2017.07.13 00:30:01] [ERROR] [SUCCESS] ThreadID:139779804043008 [minitorServer.c] [257]
+[2017.07.13 00:30:04] [INFO] [ERRNO is 200] {
+	"cmdName":"agentlogon",
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:30:04] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:30:04] [INFO] [ERRNO is 6000] {
+	"cmdName":"agentlogon",
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:30:04] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:30:04] [INFO] [ERRNO is 6000] {
+	"cmdName":"agentlogon",
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:30:04] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":"agentlogon",
+ [minitorServer.c] [114]
+[2017.07.13 00:30:04] [INFO] [ERRNO is 200] 	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:30:04] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:30:04] [INFO] [ERRNO is 6000] 	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:30:25] [DEBUG] [ERRNO is 2000] System init ok [minitorUlaneServerOp.c] [142]
+[2017.07.13 00:30:25] [DEBUG] [SUCCESS] Server system init ok [minitorServer.c] [166]
+[2017.07.13 00:30:25] [DEBUG] [SUCCESS] Server databases system init ok [minitorServer.c] [175]
+[2017.07.13 00:30:29] [ERROR] [ERRNO is 5] Client login [minitorServer.c] [243]
+[2017.07.13 00:30:29] [ERROR] [SUCCESS] ThreadID:140419111020288 [minitorServer.c] [257]
+[2017.07.13 00:30:31] [ERROR] [SUCCESS] MsgData.clients_info[iSockfd].agentId=2002
+ [minitorUlaneServerOp.c] [474]
+[2017.07.13 00:30:31] [ERROR] [SUCCESS] cmdName=agentlogon,msgID=0FFEC786-388C-417E-9474-D27F0E6BF0B3,agentid=2002,agenttype=agenttype_2
+ [minitorUlaneServerOp.c] [475]
+[2017.07.13 00:30:31] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:30:33] [ERROR] [SUCCESS] MsgData.clients_info[iSockfd].agentId=2002
+ [minitorUlaneServerOp.c] [474]
+[2017.07.13 00:30:33] [ERROR] [SUCCESS] cmdName=agentlogon,msgID=0FFEC786-388C-417E-9474-D27F0E6BF0B3,agentid=2002,agenttype=agenttype_2
+ [minitorUlaneServerOp.c] [475]
+[2017.07.13 00:30:33] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:30:33] [INFO] [ERRNO is 200] 	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:30:33] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:30:33] [INFO] [ERRNO is 6000] 	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:30:43] [DEBUG] [ERRNO is 2000] System init ok [minitorUlaneServerOp.c] [142]
+[2017.07.13 00:30:43] [DEBUG] [SUCCESS] Server system init ok [minitorServer.c] [166]
+[2017.07.13 00:30:43] [DEBUG] [SUCCESS] Server databases system init ok [minitorServer.c] [175]
+[2017.07.13 00:30:46] [ERROR] [ERRNO is 5] Client login [minitorServer.c] [243]
+[2017.07.13 00:30:46] [ERROR] [SUCCESS] ThreadID:140128252479232 [minitorServer.c] [257]
+[2017.07.13 00:30:48] [ERROR] [SUCCESS] MsgData.clients_info[iSockfd].agentId=2002
+ [minitorUlaneServerOp.c] [474]
+[2017.07.13 00:30:48] [ERROR] [SUCCESS] cmdName=agentlogon,msgID=0FFEC786-388C-417E-9474-D27F0E6BF0B3,agentid=2002,agenttype=agenttype_2
+ [minitorUlaneServerOp.c] [475]
+[2017.07.13 00:30:48] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:30:49] [ERROR] [SUCCESS] MsgData.clients_info[iSockfd].agentId=2002
+ [minitorUlaneServerOp.c] [474]
+[2017.07.13 00:30:49] [ERROR] [SUCCESS] cmdName=agentlogon,msgID=0FFEC786-388C-417E-9474-D27F0E6BF0B3,agentid=2002,agenttype=agenttype_2
+ [minitorUlaneServerOp.c] [475]
+[2017.07.13 00:30:49] [ERROR] [ERRNO is 4002] outData={
+	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+ [minitorServer.c] [114]
+[2017.07.13 00:30:49] [INFO] [ERRNO is 200] 	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:30:49] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:30:49] [INFO] [ERRNO is 6000] 	"cmdName":"agentlogon",
+	"msgID":	"0FFEC786-388C-417E-9474-D27F0E6BF0B3",
+	"agentid":	"2002",
+	"station":	"",
+	"password":	"",
+	"agenttype":	"agenttype_2"
+}eof
+
+
+
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:37:03] [DEBUG] [ERRNO is 2000] System init ok [minitorUlaneServerOp.c] [142]
+[2017.07.13 00:37:03] [DEBUG] [SUCCESS] Server system init ok [minitorServer.c] [166]
+[2017.07.13 00:37:03] [DEBUG] [SUCCESS] Server databases system init ok [minitorServer.c] [175]
+[2017.07.13 00:37:10] [ERROR] [ERRNO is 5] Client login [minitorServer.c] [243]
+[2017.07.13 00:37:10] [ERROR] [SUCCESS] ThreadID:140685458351872 [minitorServer.c] [257]
+[2017.07.13 00:37:11] [INFO] [ERRNO is 200] sasa
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:37:11] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:37:11] [INFO] [ERRNO is 6000] sasa
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:37:11] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:37:11] [INFO] [ERRNO is 6000] sasa
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:37:11] [ERROR] [ERRNO is 4002] outData=sasa
+ [minitorServer.c] [114]
+[2017.07.13 00:37:16] [ERROR] [ERRNO is 6] Client login [minitorServer.c] [243]
+[2017.07.13 00:37:16] [ERROR] [SUCCESS] ThreadID:140685447862016 [minitorServer.c] [257]
+[2017.07.13 00:37:17] [ERROR] [ERRNO is 5] Msg = sads
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:37:17] [INFO] [ERRNO is 200] sads
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:37:17] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:37:17] [INFO] [ERRNO is 6000] sads
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:37:17] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:37:17] [INFO] [ERRNO is 6000] sads
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:37:17] [ERROR] [ERRNO is 4002] outData=sads
+ [minitorServer.c] [114]
+[2017.07.13 00:37:18] [ERROR] [ERRNO is 5] Msg = sadads
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:37:18] [INFO] [ERRNO is 200] sadads
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:37:18] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:37:18] [INFO] [ERRNO is 6000] sadads
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:37:18] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:37:18] [INFO] [ERRNO is 6000] sadads
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:37:18] [ERROR] [ERRNO is 4002] outData=sadads
+ [minitorServer.c] [114]
+[2017.07.13 00:37:19] [ERROR] [ERRNO is 5] Msg = asdds
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:37:19] [INFO] [ERRNO is 200] asdds
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:37:19] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:37:19] [INFO] [ERRNO is 6000] asdds
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:37:19] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:37:19] [INFO] [ERRNO is 6000] asdds
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:37:19] [ERROR] [ERRNO is 4002] outData=asdds
+
+ [minitorServer.c] [114]
+[2017.07.13 00:37:22] [ERROR] [ERRNO is 7] Client login [minitorServer.c] [243]
+[2017.07.13 00:37:22] [ERROR] [SUCCESS] ThreadID:140685437372160 [minitorServer.c] [257]
+[2017.07.13 00:37:23] [ERROR] [ERRNO is 5] Msg = sdaads
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:37:23] [ERROR] [ERRNO is 6] Msg = sdaads
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:37:23] [INFO] [ERRNO is 200] sdaads
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:37:23] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:37:23] [INFO] [ERRNO is 6000] sdaads
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:37:23] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:37:23] [INFO] [ERRNO is 6000] sdaads
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:37:23] [ERROR] [ERRNO is 4002] outData=sdaads
+ [minitorServer.c] [114]
+[2017.07.13 00:37:24] [ERROR] [ERRNO is 5] Msg = sdasa
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:37:24] [ERROR] [ERRNO is 6] Msg = sdasa
+
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:37:24] [INFO] [ERRNO is 200] sdasa
+
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:37:24] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:37:24] [INFO] [ERRNO is 6000] sdasa
+
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:37:24] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:37:24] [INFO] [ERRNO is 6000] sdasa
+
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:37:24] [ERROR] [ERRNO is 4002] outData=sdasa
+
+ [minitorServer.c] [114]
+[2017.07.13 00:37:35] [ERROR] [ERRNO is 1000] Server is closing [minitorUlaneServerOp.c] [171]
+[2017.07.13 00:50:01] [DEBUG] [ERRNO is 2000] System init ok [minitorUlaneServerOp.c] [142]
+[2017.07.13 00:50:01] [DEBUG] [SUCCESS] Server system init ok [minitorServer.c] [153]
+[2017.07.13 00:50:01] [DEBUG] [SUCCESS] Server databases system init ok [minitorServer.c] [162]
+[2017.07.13 00:50:04] [ERROR] [ERRNO is 5] Client login [minitorServer.c] [230]
+[2017.07.13 00:51:20] [DEBUG] [ERRNO is 2000] System init ok [minitorUlaneServerOp.c] [142]
+[2017.07.13 00:51:20] [DEBUG] [SUCCESS] Server system init ok [minitorServer.c] [150]
+[2017.07.13 00:51:20] [DEBUG] [SUCCESS] Server databases system init ok [minitorServer.c] [159]
+[2017.07.13 00:51:24] [ERROR] [ERRNO is 5] Client login [minitorServer.c] [227]
+[2017.07.13 00:51:24] [ERROR] [SUCCESS] ThreadID:140555626567424 [minitorServer.c] [241]
+[2017.07.13 00:51:28] [ERROR] [ERRNO is 6] Client login [minitorServer.c] [227]
+[2017.07.13 00:51:28] [ERROR] [SUCCESS] ThreadID:140555616077568 [minitorServer.c] [241]
+[2017.07.13 00:51:30] [ERROR] [ERRNO is 5] Msg = dd
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:51:30] [INFO] [ERRNO is 200] dd
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:51:30] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:51:30] [INFO] [ERRNO is 6000] dd
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:51:30] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:51:30] [INFO] [ERRNO is 6000] dd
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:51:30] [ERROR] [ERRNO is 4002] outData=dd
+ [minitorServer.c] [98]
+[2017.07.13 00:51:32] [ERROR] [ERRNO is 5] Msg = ssa
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:51:32] [INFO] [ERRNO is 200] ssa
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:51:32] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:51:32] [INFO] [ERRNO is 6000] ssa
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:51:32] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:51:32] [INFO] [ERRNO is 6000] ssa
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:51:32] [ERROR] [ERRNO is 4002] outData=ssa
+ [minitorServer.c] [98]
+[2017.07.13 00:51:36] [ERROR] [ERRNO is 6] Msg = oh... I dropped out -_-!!
+
+ [minitorUlaneServerOp.c] [207]
+[2017.07.13 00:51:36] [INFO] [ERRNO is 200] oh... I dropped out -_-!!
+
+ [minitorUlaneServerOp.c] [236]
+[2017.07.13 00:51:36] [INFO] [ERRNO is 6000] cmdType Is NULL [minitorUlaneServerOp.c] [238]
+[2017.07.13 00:51:36] [INFO] [ERRNO is 6000] oh... I dropped out -_-!!
+
+ [minitorUlaneServerOp.c] [239]
+[2017.07.13 00:51:36] [INFO] [ERRNO is 6000] iEventType Is NULL [minitorUlaneServerOp.c] [244]
+[2017.07.13 00:51:36] [INFO] [ERRNO is 6000] oh... I dropped out -_-!!
+
+ [minitorUlaneServerOp.c] [245]
+[2017.07.13 00:51:36] [ERROR] [ERRNO is 4002] outData=oh... I dropped out -_-!!
+ [minitorServer.c] [98]
+[2017.07.13 00:51:36] [ERROR] [ERRNO is 4002] Client logout [minitorServer.c] [84]
+[2017.07.13 00:51:36] [ERROR] [ERRNO is 4002] Child Thread:140555626567424 exiting [minitorServer.c] [100]

@@ -1,0 +1,737 @@
+[2017.07.12 22:41:39] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:41:39] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:41:39] [INFO] [ERRNO is 6000] msgID:100000001
+ [parseJson.c] [415]
+[2017.07.12 22:41:39] [INFO] [ERRNO is 6000] agentid:agentmonitor1
+ [parseJson.c] [425]
+[2017.07.12 22:41:39] [INFO] [ERRNO is 6000] agenttype:agenttype_3
+ [parseJson.c] [435]
+[2017.07.12 22:41:46] [INFO] [ERRNO is 6000] pJsonObj is NULL [parseJson.c] [37]
+[2017.07.12 22:41:52] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:45:14] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:45:14] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:45:14] [INFO] [ERRNO is 6000] msgID:100000001
+ [parseJson.c] [415]
+[2017.07.12 22:45:14] [INFO] [ERRNO is 6000] agentid:agentmonitor1
+ [parseJson.c] [425]
+[2017.07.12 22:45:14] [INFO] [ERRNO is 6000] agenttype:agenttype_3
+ [parseJson.c] [435]
+[2017.07.12 22:45:21] [INFO] [ERRNO is 6000] pJsonObj is NULL [parseJson.c] [37]
+[2017.07.12 22:45:27] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:46:42] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:46:42] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:46:42] [INFO] [ERRNO is 6000] msgID:100000001
+ [parseJson.c] [415]
+[2017.07.12 22:46:42] [INFO] [ERRNO is 6000] agentid:agentmonitor1
+ [parseJson.c] [425]
+[2017.07.12 22:46:42] [INFO] [ERRNO is 6000] agenttype:agenttype_3
+ [parseJson.c] [435]
+[2017.07.12 22:46:49] [INFO] [ERRNO is 6000] pJsonObj is NULL [parseJson.c] [37]
+[2017.07.12 22:46:55] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:47:21] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:47:21] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:47:21] [INFO] [ERRNO is 6000] msgID:100000001
+ [parseJson.c] [415]
+[2017.07.12 22:47:21] [INFO] [ERRNO is 6000] agentid:agentmonitor1
+ [parseJson.c] [425]
+[2017.07.12 22:47:21] [INFO] [ERRNO is 6000] agenttype:agenttype_3
+ [parseJson.c] [435]
+[2017.07.12 22:47:28] [INFO] [ERRNO is 6000] pJsonObj is NULL [parseJson.c] [37]
+[2017.07.12 22:47:34] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:58:07] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:58:09] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:58:11] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:58:13] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:58:14] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:58:23] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:58:23] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:58:23] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:58:23] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:58:23] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:58:26] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:58:26] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:58:26] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:58:26] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:58:26] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:58:28] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:58:30] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:58:30] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:58:30] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:58:30] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:58:30] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:58:32] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:58:32] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:58:32] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:58:32] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:58:32] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:58:34] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:58:35] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:58:37] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:58:37] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:58:37] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:58:37] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:58:37] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:58:38] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:58:38] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:58:38] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:58:38] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:58:38] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:58:40] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:58:40] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:58:40] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:58:40] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:58:40] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:58:42] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:58:42] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:58:42] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:58:42] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:58:42] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:58:43] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:58:45] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:58:45] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:58:45] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:58:45] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:58:45] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:58:50] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:58:50] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:58:50] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:58:50] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:58:50] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:58:52] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:58:52] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:58:52] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:58:52] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:58:52] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:58:53] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:58:53] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:58:53] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:58:53] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:58:53] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:58:56] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:58:56] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:58:56] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:58:56] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:58:56] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:00] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:01] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:01] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:01] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:01] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:01] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:03] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:03] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:03] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:03] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:03] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:04] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:06] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:07] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:07] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:07] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:07] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:07] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:09] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:09] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:09] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:09] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:09] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:10] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:10] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:10] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:10] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:10] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:12] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:12] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:12] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:12] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:12] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:13] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:14] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:14] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:14] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:14] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:14] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:16] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:16] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:16] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:16] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:16] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:17] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:17] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:17] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:17] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:17] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:19] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:19] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:19] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:19] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:19] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:20] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:20] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:20] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:20] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:20] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:28] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:28] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:28] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:28] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:28] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:30] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:32] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:32] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:32] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:32] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:32] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:33] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:33] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:33] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:33] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:33] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:34] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:35] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:35] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:35] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:35] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:35] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:37] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:37] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:37] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:37] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:37] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:38] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:39] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:40] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:42] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:43] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:44] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:46] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:47] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:48] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:48] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:48] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:48] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:48] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:49] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:49] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:49] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:49] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:49] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:50] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:50] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:50] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:50] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:50] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:51] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:51] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:51] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:51] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:51] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:54] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:54] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:54] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:54] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:54] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:55] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:55] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:55] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:55] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:55] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 22:59:56] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:58] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 22:59:59] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 22:59:59] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 22:59:59] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 22:59:59] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 22:59:59] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:01] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:01] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:01] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:01] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:01] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:02] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:05] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:07] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:08] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:09] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:11] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:11] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:11] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:11] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:11] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:18] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:18] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:18] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:18] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:18] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:19] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:19] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:19] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:19] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:19] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:21] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:21] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:21] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:21] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:21] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:22] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:22] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:22] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:22] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:22] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:28] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:28] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:28] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:28] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:28] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:30] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:30] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:30] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:30] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:30] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:32] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:32] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:32] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:32] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:32] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:33] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:33] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:33] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:33] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:33] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:34] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:34] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:34] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:34] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:34] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:36] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:36] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:36] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:36] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:36] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:37] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:37] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:37] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:37] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:37] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:38] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:38] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:38] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:38] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:38] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:40] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:41] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:43] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:44] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:44] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:44] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:44] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:44] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:45] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:00:45] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:00:45] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:00:45] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:00:45] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:00:47] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:48] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:49] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:49] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:49] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:51] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:52] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:52] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:52] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:00:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:11] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:01:11] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:01:11] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:01:11] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:01:11] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:01:25] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:01:25] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:01:25] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:01:25] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:01:25] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:01:27] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:27] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:29] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:29] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:30] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:30] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:32] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:32] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:33] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:33] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:34] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:35] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:39] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.12 23:01:39] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.12 23:01:39] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.12 23:01:39] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.12 23:01:39] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.12 23:01:40] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:40] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:42] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:42] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:44] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:47] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:48] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:49] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:01:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:35] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:37] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:38] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:40] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:41] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:43] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:44] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:46] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:47] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:49] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:52] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:54] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:55] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:56] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:58] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:02:59] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:03:01] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:03:02] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:03:04] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:03:26] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:03:48] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:03:48] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:03:48] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:03:49] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:04:04] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:04:06] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:04:11] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:04:11] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:04:12] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:04:13] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:04:16] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:04:16] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:06:17] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:06:37] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:08:01] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:08:04] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:08:07] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:08:10] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:08:13] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:08:16] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:08:19] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:08:22] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:08:25] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:08:28] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.12 23:08:28] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]

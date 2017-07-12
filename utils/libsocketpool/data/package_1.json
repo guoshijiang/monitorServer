@@ -1,0 +1,21 @@
+{
+	"msg_id":	"1000000001",
+	"event_name":	"agentsigninlog",
+	"event_body":	[{
+			"AgentLogonID":	"20026301",
+			"From_STR":	"192.168.1.126:8899|192.168.1.126:8899",
+			"AgentID":	"2002",
+			"Station":	"9002",
+			"OpState":	"1",
+			"AgentSkill":	"6301",
+			"CDTime":	"2017-06-18 21:10:28"
+		}, {
+			"AgentLogonID":	"20026302",
+			"From_STR":	"192.168.1.126:8899|192.168.1.126:8899",
+			"AgentID":	"2002",
+			"Station":	"9002",
+			"OpState":	"1",
+			"AgentSkill":	"6302",
+			"CDTime":	"2017-06-18 21:10:28"
+		}]
+}eof

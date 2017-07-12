@@ -1,0 +1,1168 @@
+[2017.07.13 00:06:44] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:06:47] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:06:50] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:06:53] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:06:56] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:06:59] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:07:02] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:07:05] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:07:08] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:07:11] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:07:11] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:07:29] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:07:32] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:07:35] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:07:38] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:07:41] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:08:18] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:08:48] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:09:19] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:09:21] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.13 00:09:21] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.13 00:09:21] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.13 00:09:21] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.13 00:09:21] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.13 00:09:38] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.13 00:09:38] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.13 00:09:38] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.13 00:09:38] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.13 00:09:38] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.13 00:13:54] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:13:57] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:14:00] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:14:03] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:14:06] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:14:09] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:14:12] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:14:15] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:14:18] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:14:21] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:14:21] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:17:45] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:17:45] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:17:48] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:17:48] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:17:51] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:17:51] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:17:54] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:17:54] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:17:57] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:17:57] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:18:00] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:18:00] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:18:03] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:18:03] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:18:06] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:18:06] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:18:09] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:18:09] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:18:12] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:18:12] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:18:12] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:18:12] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:18:17] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:18:17] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:23:36] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.13 00:23:36] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.13 00:23:36] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.13 00:23:36] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.13 00:23:36] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.13 00:23:56] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.13 00:23:56] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.13 00:23:56] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.13 00:23:56] [INFO] [ERRNO is 6000] agentid:2002
+ [parseJson.c] [425]
+[2017.07.13 00:23:56] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.13 00:24:34] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.13 00:24:34] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.13 00:24:34] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.13 00:24:34] [INFO] [ERRNO is 6000] agentid:2003
+ [parseJson.c] [425]
+[2017.07.13 00:24:34] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.13 00:26:13] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:26:13] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:26:13] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:26:13] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:26:13] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:26:13] [INFO] [ERRNO is 6000] eventitem:2001|2002
+ [parseJson.c] [244]
+[2017.07.13 00:26:13] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:26:13] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:26:13] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:26:13] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:26:13] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:26:13] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:26:13] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:26:16] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:26:16] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:26:16] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:26:16] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:26:16] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:26:16] [INFO] [ERRNO is 6000] eventitem:2001|2002
+ [parseJson.c] [244]
+[2017.07.13 00:26:16] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:26:16] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:26:16] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:26:16] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:26:16] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:26:16] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:26:16] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:26:19] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:26:19] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:26:19] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:26:19] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:26:19] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:26:19] [INFO] [ERRNO is 6000] eventitem:2001|2002
+ [parseJson.c] [244]
+[2017.07.13 00:26:19] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:26:19] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:26:19] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:26:19] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:26:19] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:26:19] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:26:19] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:26:22] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:26:22] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:26:22] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:26:22] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:26:22] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:26:22] [INFO] [ERRNO is 6000] eventitem:2001|2002
+ [parseJson.c] [244]
+[2017.07.13 00:26:22] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:26:22] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:26:22] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:26:22] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:26:22] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:26:22] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:26:22] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:26:25] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:26:25] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:26:25] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:26:25] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:26:25] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:26:25] [INFO] [ERRNO is 6000] eventitem:2001|2002
+ [parseJson.c] [244]
+[2017.07.13 00:26:25] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:26:25] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:26:25] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:26:25] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:26:25] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:26:25] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:26:25] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:26:28] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:26:28] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:26:28] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:26:28] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:26:28] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:26:28] [INFO] [ERRNO is 6000] eventitem:2001|2002
+ [parseJson.c] [244]
+[2017.07.13 00:26:28] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:26:28] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:26:28] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:26:28] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:26:28] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:26:28] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:26:28] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:26:31] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:26:31] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:26:31] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:26:31] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:26:31] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:26:31] [INFO] [ERRNO is 6000] eventitem:2001|2002
+ [parseJson.c] [244]
+[2017.07.13 00:26:31] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:26:31] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:26:31] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:26:31] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:26:31] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:26:31] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:26:31] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:26:34] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:26:34] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:26:34] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:26:34] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:26:34] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:26:34] [INFO] [ERRNO is 6000] eventitem:2001|2002
+ [parseJson.c] [244]
+[2017.07.13 00:26:34] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:26:34] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:26:34] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:26:34] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:26:34] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:26:34] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:26:34] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:26:37] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:26:37] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:26:37] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:26:37] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:26:37] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:26:37] [INFO] [ERRNO is 6000] eventitem:2001|2002
+ [parseJson.c] [244]
+[2017.07.13 00:26:37] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:26:37] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:26:37] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:26:37] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:26:37] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:26:37] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:26:37] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] eventitem:2001|2002
+ [parseJson.c] [244]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] eventitem:2001|2002
+ [parseJson.c] [244]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:26:40] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:09] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:09] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:09] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:09] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:09] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:09] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:09] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:09] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:09] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:09] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:09] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:09] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:09] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:12] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:12] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:12] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:12] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:12] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:12] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:12] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:12] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:12] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:12] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:12] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:12] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:12] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:15] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:15] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:15] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:15] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:15] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:15] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:15] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:15] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:15] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:15] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:15] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:15] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:15] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:18] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:18] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:18] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:18] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:18] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:18] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:18] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:18] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:18] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:18] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:18] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:18] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:18] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:21] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:21] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:21] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:21] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:21] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:21] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:21] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:21] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:21] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:21] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:21] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:21] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:21] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:24] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:24] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:24] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:24] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:24] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:24] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:24] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:24] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:24] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:24] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:24] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:24] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:24] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:27] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:27] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:27] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:27] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:27] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:27] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:27] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:27] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:27] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:27] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:27] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:27] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:27] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:30] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:30] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:30] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:30] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:30] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:30] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:30] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:30] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:30] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:30] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:30] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:30] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:30] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:33] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:33] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:33] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:33] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:33] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:33] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:33] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:33] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:33] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:33] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:33] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:33] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:33] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:35] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:27:35] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:36] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:44] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:44] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:44] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:44] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:44] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:44] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:44] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:44] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:44] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:44] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:44] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:44] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:44] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:47] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:47] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:47] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:47] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:47] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:47] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:47] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:47] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:47] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:47] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:47] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:47] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:47] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:50] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:50] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:50] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:50] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:50] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:50] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:50] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:50] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:50] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:50] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:50] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:50] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:50] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:53] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:53] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:53] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:53] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:53] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:53] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:53] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:53] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:53] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:53] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:53] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:53] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:53] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:56] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:56] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:56] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:56] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:56] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:56] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:56] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:56] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:56] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:56] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:56] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:56] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:56] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:27:59] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:27:59] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:27:59] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:27:59] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:27:59] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:27:59] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:27:59] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:27:59] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:27:59] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:27:59] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:27:59] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:27:59] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:27:59] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:28:02] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:28:02] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:28:02] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:28:02] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:28:02] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:28:02] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:28:02] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:28:02] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:28:02] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:28:02] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:28:02] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:28:02] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:28:02] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:28:05] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:28:05] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:28:05] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:28:05] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:28:05] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:28:05] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:28:05] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:28:05] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:28:05] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:28:05] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:28:05] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:28:05] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:28:05] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:28:09] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:28:09] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:28:09] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:28:09] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:28:09] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:28:09] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:28:09] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:28:09] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:28:09] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:28:09] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:28:09] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:28:09] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:28:09] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:28:12] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:28:12] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:28:12] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:28:12] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:28:12] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:28:12] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:28:12] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:28:12] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:28:12] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:28:12] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:28:12] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:28:12] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:28:12] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:28:15] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:28:15] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:28:15] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:28:15] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:28:15] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:28:15] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:28:15] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:28:15] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:28:15] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:28:15] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:28:15] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:28:15] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:28:15] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:28:18] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:28:18] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:28:18] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:28:18] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:28:18] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:28:18] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:28:18] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:28:18] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:28:18] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:28:18] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:28:18] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:28:18] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:28:18] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:28:21] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:28:21] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:28:21] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:28:21] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:28:21] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:28:21] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:28:21] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:28:21] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:28:21] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:28:21] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:28:21] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:28:21] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:28:21] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:28:24] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:28:24] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:28:24] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:28:24] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:28:24] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:28:24] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:28:24] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:28:24] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:28:24] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:28:24] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:28:24] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:28:24] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:28:24] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:28:26] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:28:26] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:28:27] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:28:27] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:28:27] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:28:27] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:28:27] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:28:27] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:28:27] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:28:27] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:28:27] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:28:27] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:28:27] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:28:27] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:28:27] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:28:30] [INFO] [ERRNO is 6000] cmd_sendmessage
+ [parseJson.c] [42]
+[2017.07.13 00:28:30] [INFO] [ERRNO is 6000] cmdName:cmd_sendmessage
+ [parseJson.c] [204]
+[2017.07.13 00:28:30] [INFO] [ERRNO is 6000] msgID:1001
+ [parseJson.c] [214]
+[2017.07.13 00:28:30] [INFO] [ERRNO is 6000] raisehandid:agentname
+ [parseJson.c] [224]
+[2017.07.13 00:28:30] [INFO] [ERRNO is 6000] eventtype:73ADC749-2FA7-412C-9189-653ABB34E2FD
+ [parseJson.c] [234]
+[2017.07.13 00:28:30] [INFO] [ERRNO is 6000] eventitem:2001|2002|2003
+ [parseJson.c] [244]
+[2017.07.13 00:28:30] [INFO] [ERRNO is 6000] eventitem:2003
+ [parseJson.c] [254]
+[2017.07.13 00:28:30] [INFO] [ERRNO is 6000] station:9011
+ [parseJson.c] [264]
+[2017.07.13 00:28:30] [INFO] [ERRNO is 6000] memo:
+ [parseJson.c] [274]
+[2017.07.13 00:28:30] [INFO] [ERRNO is 6000] raisehandtime:2
+ [parseJson.c] [284]
+[2017.07.13 00:28:30] [INFO] [ERRNO is 6000] requestagent:aaaaaaaa
+ [parseJson.c] [294]
+[2017.07.13 00:28:30] [INFO] [ERRNO is 6000] answertype:
+ [parseJson.c] [304]
+[2017.07.13 00:28:30] [INFO] [ERRNO is 6000] organizationid:
+ [parseJson.c] [314]
+[2017.07.13 00:29:27] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.13 00:29:27] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.13 00:29:27] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.13 00:29:27] [INFO] [ERRNO is 6000] agentid:2001
+ [parseJson.c] [425]
+[2017.07.13 00:29:27] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.13 00:29:42] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:29:42] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:30:04] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:30:04] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:30:31] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.13 00:30:31] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.13 00:30:31] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.13 00:30:31] [INFO] [ERRNO is 6000] agentid:2002
+ [parseJson.c] [425]
+[2017.07.13 00:30:31] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.13 00:30:33] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.13 00:30:33] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.13 00:30:33] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.13 00:30:33] [INFO] [ERRNO is 6000] agentid:2002
+ [parseJson.c] [425]
+[2017.07.13 00:30:33] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.13 00:30:48] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.13 00:30:48] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.13 00:30:48] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.13 00:30:48] [INFO] [ERRNO is 6000] agentid:2002
+ [parseJson.c] [425]
+[2017.07.13 00:30:48] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.13 00:30:49] [INFO] [ERRNO is 6000] agentlogon
+ [parseJson.c] [42]
+[2017.07.13 00:30:49] [INFO] [ERRNO is 6000] cmdName:agentlogon
+ [parseJson.c] [405]
+[2017.07.13 00:30:49] [INFO] [ERRNO is 6000] msgID:0FFEC786-388C-417E-9474-D27F0E6BF0B3
+ [parseJson.c] [415]
+[2017.07.13 00:30:49] [INFO] [ERRNO is 6000] agentid:2002
+ [parseJson.c] [425]
+[2017.07.13 00:30:49] [INFO] [ERRNO is 6000] agenttype:agenttype_2
+ [parseJson.c] [435]
+[2017.07.13 00:37:11] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:37:11] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:37:17] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:37:17] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:37:18] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:37:18] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:37:19] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:37:19] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:37:23] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:37:23] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:37:24] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:37:24] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:51:30] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:51:30] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:51:32] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:51:32] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]
+[2017.07.13 00:51:36] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [28]
+[2017.07.13 00:51:36] [INFO] [ERRNO is 6000] pJson is NULL [parseJson.c] [332]

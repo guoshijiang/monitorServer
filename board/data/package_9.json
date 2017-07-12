@@ -1,0 +1,30 @@
+{
+		"msg_id":	"1000000001",
+		"event_name":	"vdncalllog",
+		"event_body":	
+		[{
+				"VDN":	"6969",
+				"UCID":	"0000000000",
+				"CallID":	"1",
+				"From_STR":	"192.168.1.126:8899|192.168.1.126:8899",
+				"ANI":	"13811016161",
+				"DNIS":	"6969",
+				"Enter_Time":	"2017-06-18 21:11:06",
+				"Queue_Time":	"2017-06-18 21:11:06",
+				"Deliver_Time":	"2017-06-18 21:11:06",
+				"Estab_Time":	"2017-06-18 21:11:09",
+				"End_Time":	"2017-06-18 21:11:24",
+				"Station":	"9001",
+				"AgentID":	"2001",
+				"Split":	"6310",
+				"End_Reason":	"4",
+				"VDN_Dur":	0,
+				"Queue_Dur":	0,
+				"Talk_Dur":	15,
+				"Ring_Dur":	3,
+				"Hold_Dur":	0,
+				"HoldCount":	0,
+				"ConsultCount":	0,
+				"ConferenceCount":0
+		}]
+}eof

@@ -1,0 +1,1 @@
+g++ -o ../data/testSocket testSocket.cpp Socket.cpp cJSON.c -I ../inc/ -lpthread

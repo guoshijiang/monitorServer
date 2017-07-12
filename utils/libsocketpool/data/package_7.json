@@ -1,0 +1,18 @@
+{
+	"msg_id":	"1000000001",
+	"event_name":	"agentstatelog",
+	"event_body":	[{
+			"AgentID":	"2003",
+			"Station":	"9003",
+			"LogonTime":	"2017-06-18 21:10:35",
+			"State":	"3",
+			"AUX_Code":	"0",
+			"Begintime":	"2017-06-18 21:11:24",
+			"pre_state":	"1",
+			"Pre_aux":	"0",
+			"StateInfo":	"",
+			"CustPhone":	"",
+			"CallDirect":	"",
+			"Split":	"6301|6302"
+		}]
+}eof

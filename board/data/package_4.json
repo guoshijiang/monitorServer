@@ -1,0 +1,29 @@
+{
+	"msg_id":	"1000000001",
+	"event_name":	"stationstatelog",
+	"event_body":	[{
+			"AgentID":	"2001",
+			"Station":	"9001",
+			"From_STR":	"192.168.1.126:8899|192.168.1.126:8899",
+			"State":	"1",
+			"AUX_Code":	"",
+			"Begintime":	"2017-06-18 21:13:28",
+			"Endtime":	"2017-06-18 21:14:06",
+			"StateInfo":	"",
+			"CustPhone":	"",
+			"CallDirect":	"",
+			"Split":	"6301|6302|6303|6304|6305|6306|6307|6308|6309|6310"
+		},{
+			"AgentID":	"2002",
+			"Station":	"9002",
+			"From_STR":	"192.168.1.126:8899|192.168.1.126:8899",
+			"State":	"1",
+			"AUX_Code":	"",
+			"Begintime":	"2017-06-18 21:13:28",
+			"Endtime":	"2017-06-18 21:14:06",
+			"StateInfo":	"",
+			"CustPhone":	"",
+			"CallDirect":	"",
+			"Split":	"6301|6302|6303|6304|6305|6306|6307|6308|6309|6310"
+		}]
+}eof

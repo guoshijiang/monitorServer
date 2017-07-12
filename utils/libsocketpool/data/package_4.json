@@ -1,0 +1,17 @@
+{
+	"msg_id":	"1000000001",
+	"event_name":	"stationstatelog",
+	"event_body":	[{
+			"AgentID":	"2002",
+			"Station":	"9002",
+			"From_STR":	"192.168.1.126:8899|192.168.1.126:8899",
+			"State":	"1",
+			"AUX_Code":	"",
+			"Begintime":	"2017-06-18 21:10:28",
+			"Endtime":	"2017-06-18 21:11:06",
+			"StateInfo":	"",
+			"CustPhone":	"",
+			"CallDirect":	"",
+			"Split":	"6301|6302"
+		}]
+}eof
