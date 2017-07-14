@@ -109,23 +109,6 @@ int StartUlaneService()
 	pthread_t 	         tid;
 	int                  nReady;    
 	fd_set               rSet;    
-	g_serverTag  = 0;
-	
-	//信号处理
-	if(signal(SIGINT, sigint) == SIG_ERR)
-  {
-  	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[1], iRet,"Signal Error");
-  	return -1;
-  } 
-	memset(&iServerInfo, 0, sizeof(iServerInfo));
-	//初始化服务器 全局变量
-	iRet = Ulane_ServerInfoInit(&iServerInfo);
-	if (iRet != 0)
-	{
-		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"func Ulane_ServerInfoInit() err");
-		return iRet;
-	}
-	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[1], iRet,"Server system init ok");
 	
 	//服务器端初始化
 	iRet = sckServer_init(iServerInfo.iSerPort, &iListenfd);
@@ -166,7 +149,7 @@ int StartUlaneService()
 			}
       if (iConnfd < FD_SETSIZE )
       {
-        sem_wait(&sem) ;
+        sem_wait(&sem);
         if (MsgData.clients_info[iConnfd].isEmpty == 0)
         {
           if (iConnfd > MsgData.maxfd)
@@ -236,15 +219,6 @@ int QueueMsgServerDataHandleCenter()
 	char*         outExtJson;
 	int           iRet;
 	
-	//数据库初始化
-	iSql = Ulane_ServerDBInit("localhost", "root", "123456", "minitor", 0, NULL, 0);
-	if (iSql == NULL) 
-	{
-		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[1], iRet,"Ulane_ServerDBInit() exec error");
-		return iRet;
-	}
-	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[1], iRet,"Server databases system init ok");
-	
 	//创建消息队列
 	msgId = CreatMsgQueue();
 	if(msgId < 0)
@@ -257,10 +231,8 @@ int QueueMsgServerDataHandleCenter()
 		memset(Msg, 0,sizeof(Msg));
 		RecvQueueMsg(msgId, mainThread_Type, Msg);
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], 100,"mainThread_Type:%s\n",Msg);
-		printf("fork msg = %s\n", Msg);
-		//解析推过来入库的消息
+		//解析消息队列推过来入库的消息
 		iEventType = EveNameParse(Msg);
-		printf("Fork iEventType = %s\n", iEventType);
 		if(iEventType == NULL)
 		{
 			 continue;	
@@ -268,53 +240,62 @@ int QueueMsgServerDataHandleCenter()
 		else if(strcmp(iEventType, "stationstatelog")==0)
 		{
 			//分机状态明细统一入库处理  1
+			sem_wait(&sem);
 			iRet = StationStateLog(Msg, &outExtJson);                        
 			if(iRet == -1)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"StationStateLog error");
 				continue;
 			}
+			sem_post(&sem);
 		}
 		else if(strcmp(iEventType, "agentsigninlog") == 0 || strcmp(iEventType, "agentsignoutlog") == 0)
 		{
 			//签入签出明细统一入库处理  2
-			printf("Msg = %s\n", Msg);
+			sem_wait(&sem);
 			iRet = AgentSignInLog(Msg, &outExtJson); 
 			if(iRet == -1)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"AgentSignInLog error");
 				continue;
-			}                        
+			} 
+			sem_post(&sem);                       
 		}
 		else if(strcmp(iEventType, "vdncalllog") == 0)
 		{
 			//呼入通话明细统一入库处理  3
+			sem_wait(&sem);
 			iRet = VdnCallLog(Msg, &outExtJson); 
 			if(iRet == -1)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"VdnCallLog error");
 				continue;
-			}                             
+			}    
+			sem_post(&sem);                         
 		}
 		else if(strcmp(iEventType, "stationcalllog") == 0)  
 		{
 			//呼出通话明细统一入库处理  4 
+			sem_wait(&sem);
 			iRet = StationCallLog(Msg, &outExtJson);
 			if(iRet == -1)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"StationCallLog error");
 				continue;
-			}                          
+			}
+			sem_post(&sem);                          
 		}
 		else if(strcmp(iEventType, "agentstatelog") == 0)  
 		{
 			//坐席实时状态入库处理  5
+			sem_wait(&sem);
 			iRet = AgentStateLog(Msg, &outExtJson); 
 			if(iRet == -1)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"AgentStateLog error");
 				continue;
-			}                         
+			} 
+			sem_post(&sem);                         
 		}
 	}
 	DestroyQueue(msgId);
@@ -334,10 +315,35 @@ int main()
 	pid_t                pid;            //进程ID
 	int                  iRet  = 0;
 	pthread_t            tid;
+	g_serverTag          = 0;
 	//安装一个信号处理函数
 	signal(SIGUSR1, sighandler_t);
 	//守护进程
 	//INIT_DAEMON
+	if(signal(SIGINT, sigint) == SIG_ERR)  //信号处理
+  {
+  	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[1], iRet,"Signal Error");
+  	return -1;
+  } 
+	memset(&iServerInfo, 0, sizeof(iServerInfo));
+	//初始化服务器 全局变量
+	iRet = Ulane_ServerInfoInit(&iServerInfo);
+	if (iRet != 0)
+	{
+		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"func Ulane_ServerInfoInit() err");
+		return iRet;
+	}
+	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[1], iRet,"Server system init ok");
+	//数据库初始化
+	iSql = Ulane_ServerDBInit("localhost", "root", "123456", "minitor", 0, NULL, 0);
+	if (iSql == NULL) 
+	{
+		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[1], iRet,"Ulane_ServerDBInit() exec error");
+		return iRet;
+	}
+	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[1], iRet,"Server databases system init ok");
+	
+	sem_init(&sem, 0, 1); //初始化信号量
 
 	pid = fork();
 	if(pid > 0)

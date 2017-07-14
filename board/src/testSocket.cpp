@@ -83,7 +83,7 @@ void *UlaneTestTool(void *arg)
 	for(i = 0; i < 10; i++)
 	{
 		sleep(3);
-		sprintf(fname, "./package_9.json", i);
+		sprintf(fname, "./package_1.json", i);
 		data = ReadFile(fname);
 		//strcat(data, "\r\n");
 		if(data == NULL)

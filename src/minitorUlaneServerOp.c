@@ -441,13 +441,21 @@ void HandleTransMsg(int iSockfd, char *Msg, int Msglen)
 			SendQueueMsg(msgId,mainThread_Type,Msg); 
 			
 			//坐席实时状态分发普通监控坐席
-			iRet = MsgSendToAgentTypeTwo(iSockfd, Msg, Msglen, "2001");
+			iRet = MsgSendToAgentTypeTwo(iSockfd, Msg, Msglen, "2001"); //2001为测试的技能组号码
 			if(iRet == 0)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
 			}                        
 		}
-		return ;
+		else if(strcmp(iEventType, "skillqueueinfo") == 0)  
+		{
+			//技能组排队处理  6
+			iRet = MsgSendToAgentTypeOne(iSockfd, Msg, Msglen);
+			if(iRet == 0)
+			{
+				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
+			} 
+		}
 	}
 	else if(strcmp(cmdType, "agentlogon") == 0)
 	{
@@ -476,7 +484,7 @@ void HandleTransMsg(int iSockfd, char *Msg, int Msglen)
 	}
 	else if(strcmp(cmdType, "cmd_raisehand") == 0)
 	{	
-		HandleRaiseHandMsg(iSockfd, Msg);
+		iRet = HandleRaiseHandMsg(iSockfd, Msg);
 		if(iRet == -1)
 		{
 			Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"RaiseHandMsg Error");	
@@ -484,7 +492,11 @@ void HandleTransMsg(int iSockfd, char *Msg, int Msglen)
 	}
 	else if(strcmp(cmdType, "cmd_sendmessage") == 0)
 	{
-		HandleSendMsg(iSockfd, Msg);
+		iRet = HandleSendMsg(iSockfd, Msg);
+		if(iRet == -1)
+		{
+			Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"HandleSendMsg Error");	
+		}
 	}
 	else
 	{
