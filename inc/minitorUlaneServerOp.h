@@ -143,22 +143,38 @@ void sigint(int signo);
  *返回值:
  *功能说明:消息发送给所有客户端
  *===========================================================*/
-int MsgSendToAll(int iSockfd, char *Msg, int Msglen);
+static int MsgSendToAll(int iSockfd, char *Msg, int Msglen);
 
 /*=========================================================
  *函数入参:  
  *函数出参:  
- *返回值:将消息群发或者发到特定的sockfd客户端中   
+ *返回值:
+ *功能说明:把消息发送给所有的监控坐席
+ *===========================================================*/
+int MsgSendToAgentTypeOne(int iSockfd, char *Msg, int Msglen);
+
+/*=========================================================
+ *函数入参:  
+ *函数出参:  
+ *返回值:
+ *功能说明:把消息转发给普通坐席
+ *===========================================================*/
+int MsgSendToAgentTypeTwo(int iSockfd, char *Msg, int Msglen, char *iAgentId);
+
+/*=========================================================
+ *函数入参:  
+ *函数出参:  
+ *返回值:  
  *功能说明:转发消息,对已连接的客户端的数据收发处理
  *===========================================================*/
 void HandleTransMsg(int iSockfd, char *Msg, int Msglen);
 
 /*=========================================================
-*函数入参:  inJson  客户端发过来的Json串
-*函数出参:  outJson 处理之后传出的JSON串
-					  outLen  处理出去的json串的长度
-*返回值:    成功返回事件的类型， 失败返回NULL
-*功能说明:终端登录接口
+*函数入参: inJson  客户端发过来的Json串
+*函数出参: outJson 处理之后传出的JSON串
+					 outLen  处理出去的json串的长度
+*返回值:   成功返回事件的类型， 失败返回NULL
+*功能说明: 终端登录接口
 *===========================================================*/
 int TerminalLogin(int iSockfd, char *inJson, char** outJson);
 
@@ -171,10 +187,10 @@ int TerminalLogin(int iSockfd, char *inJson, char** outJson);
 char *Timer();
 
 /*=========================================================
-*函数入参:  inJson  客户端发过来的Json串
-*函数出参:  outJson 处理之后传出的JSON串			 
+*函数入参:inJson客户端发过来的Json串
+*函数出参:outJson处理之后传出的JSON串			 
 *返回值:    
-*功能说明:  分机状态明细统一处理
+*功能说明:分机状态明细统一处理
 *===========================================================*/
 int StationStateLog(char *inJson, char** outJson);
 
@@ -224,7 +240,7 @@ int SkillQueueInfo(char *inJson, char** outJson);
 *返回值:    
 *功能说明:举手消息处理
 *===========================================================*/
-int RaiseHandMsg(int iSockfd, char *inJson, char** outJson);
+int HandleRaiseHandMsg(int iSockfd, char *inJson);
 
 /*=========================================================
 *函数入参:  
@@ -232,7 +248,7 @@ int RaiseHandMsg(int iSockfd, char *inJson, char** outJson);
 *返回值:    
 *功能说明:消息发送处理
 *===========================================================*/
-int HandleSendMsg(int iSockfd, char *inJson, char** outJson);
+int HandleSendMsg(int iSockfd, char *inJson);
 
 #ifdef __cplusplus
 }

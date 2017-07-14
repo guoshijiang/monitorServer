@@ -31,7 +31,6 @@
 #define AGENTSTATELOG     5              //坐席实时状态
 #define SKILLQUEUEINLOG   6              //技能组实时排队信息
 
-
 //错误码定义
 #define DBINITERR         4000
 #define GETEVTERR         4001
@@ -89,7 +88,6 @@ void *UlaneServer_Routine(void* arg)
       }
       else
       {
-      	printf("outData = %s\n", outData);
       	sem_wait(&sem);
       	HandleTransMsg(iSockfd, outData, outLen);
         sem_post(&sem);  
@@ -101,25 +99,7 @@ void *UlaneServer_Routine(void* arg)
   pthread_exit((void *)&iSockfd);
 }
 
-//信号处理函数
-void(sighandler_t)(int arg)
-{
-	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[3], arg,"Server already accept the signal");
-	g_serverTag = 1;
-	return ;		
-}
-
-/*
-//守护进程
-#define INIT_DAEMON \
-{ \
-	if(fork() >0) exit(0); \
-	setsid(); \
-	if(fork()>0) exit(0); \
-}
-*/
-
-int main()
+int StartUlaneService()
 {
 	int 		             iRet = 0;
 	int 		             iListenfd 	= 0;
@@ -130,13 +110,11 @@ int main()
 	int                  nReady;    
 	fd_set               rSet;    
 	g_serverTag  = 0;
-	//安装一个信号处理函数
-	signal(SIGUSR1, sighandler_t);
-	//INIT_DAEMON
-
-	if (signal(SIGINT, sigint) == SIG_ERR)
+	
+	//信号处理
+	if(signal(SIGINT, sigint) == SIG_ERR)
   {
-  	printf("signal error\n");
+  	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[1], iRet,"Signal Error");
   	return -1;
   } 
 	memset(&iServerInfo, 0, sizeof(iServerInfo));
@@ -149,15 +127,6 @@ int main()
 	}
 	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[1], iRet,"Server system init ok");
 	
-	//数据库初始化
-	iSql = Ulane_ServerDBInit("localhost", "root", "123456", "minitor", 0, NULL, 0);
-	if (iSql == NULL) 
-	{
-		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[1], iRet,"Ulane_ServerDBInit() exec error");
-		return iRet;
-	}
-	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[1], iRet,"Server databases system init ok");
-
 	//服务器端初始化
 	iRet = sckServer_init(iServerInfo.iSerPort, &iListenfd);
 	if (iRet != 0)
@@ -165,9 +134,7 @@ int main()
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"func sckServer_init() err");
 		return iRet;
 	}
-	//初始化线程池
 	//iThp = threadpool_create(3,100,100);    //线程池里最小3个线程，最大100个，队列最大值100
-	//初始化，完成创建绑定监听等工作
   memset(&MsgData, 0, sizeof(MsgData));
   MsgData.maxfd = iListenfd;
   FD_ZERO(&rSet);
@@ -260,36 +227,43 @@ int main()
 	return 0;
 }
 
-/*
-//数据处理中心
-void* UlaneDataHandleCenter()
+//数据入库处理中心
+int QueueMsgServerDataHandleCenter()
 {
-	char                 Msg[MSGSIZE];   //接收主线程发过来的消息
-  char*                iEventType;     //事件类型 
-  char*                outExtJson;
-	int                  iRet  = 0;
-  //创建消息队列
-	int msgId = CreatMsgQueue();
-	if(msgId <0)
+	int           msgId;
+	char          Msg[MSGSIZE];
+	char*         iEventType;  //事件类型 
+	char*         outExtJson;
+	int           iRet;
+	
+	//数据库初始化
+	iSql = Ulane_ServerDBInit("localhost", "root", "123456", "minitor", 0, NULL, 0);
+	if (iSql == NULL) 
+	{
+		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[1], iRet,"Ulane_ServerDBInit() exec error");
+		return iRet;
+	}
+	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[1], iRet,"Server databases system init ok");
+	
+	//创建消息队列
+	msgId = CreatMsgQueue();
+	if(msgId < 0)
 	{
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], 100,"CreatMsgQueue Error");
-		return NULL;
+		return -1;
 	}		
 	while(1)
 	{
-		memset(Msg, '0', sizeof(Msg));
-		iRet = RecvQueueMsg(msgId, mainThread_Type, Msg);  //接收主线程发过来的消息
-		if(iRet == -1)
-		{
-			Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], 100,"RecvQueueMsg Error");
-			continue;
-		}
+		memset(Msg, 0,sizeof(Msg));
+		RecvQueueMsg(msgId, mainThread_Type, Msg);
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], 100,"mainThread_Type:%s\n",Msg);
-	
+		printf("fork msg = %s\n", Msg);
+		//解析推过来入库的消息
 		iEventType = EveNameParse(Msg);
+		printf("Fork iEventType = %s\n", iEventType);
 		if(iEventType == NULL)
 		{
-			return NULL;	
+			 continue;	
 		}
 		else if(strcmp(iEventType, "stationstatelog")==0)
 		{
@@ -298,7 +272,7 @@ void* UlaneDataHandleCenter()
 			if(iRet == -1)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"StationStateLog error");
-				return NULL;
+				continue;
 			}
 		}
 		else if(strcmp(iEventType, "agentsigninlog") == 0 || strcmp(iEventType, "agentsignoutlog") == 0)
@@ -309,7 +283,7 @@ void* UlaneDataHandleCenter()
 			if(iRet == -1)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"AgentSignInLog error");
-				return NULL;
+				continue;
 			}                        
 		}
 		else if(strcmp(iEventType, "vdncalllog") == 0)
@@ -319,7 +293,7 @@ void* UlaneDataHandleCenter()
 			if(iRet == -1)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"VdnCallLog error");
-				return NULL;
+				continue;
 			}                             
 		}
 		else if(strcmp(iEventType, "stationcalllog") == 0)  
@@ -329,7 +303,7 @@ void* UlaneDataHandleCenter()
 			if(iRet == -1)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"StationCallLog error");
-				return NULL;
+				continue;
 			}                          
 		}
 		else if(strcmp(iEventType, "agentstatelog") == 0)  
@@ -339,36 +313,36 @@ void* UlaneDataHandleCenter()
 			if(iRet == -1)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"AgentStateLog error");
-				return NULL;
+				continue;
 			}                         
-		}	
+		}
 	}
-	DestroyQueue(msgId);	
+	DestroyQueue(msgId);
+	return 0;
 }
-*/
 
-/*
+//信号处理函数
+void(sighandler_t)(int arg)
+{
+	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[3], arg,"Server already accept the signal");
+	g_serverTag = 1;
+	return ;		
+}
+
 int main()
 {
 	pid_t                pid;            //进程ID
-	char                 Msg[MSGSIZE];   //接收主线程发过来的消息
-  char*                iEventType;     //事件类型 
-  char*                outExtJson;
 	int                  iRet  = 0;
 	pthread_t            tid;
 	//安装一个信号处理函数
 	signal(SIGUSR1, sighandler_t);
+	//守护进程
 	//INIT_DAEMON
 
-	if (signal(SIGINT, sigint) == SIG_ERR)
-  {
-  	printf("signal error\n");
-  	return -1;
-  } 
 	pid = fork();
 	if(pid > 0)
 	{
-		 iRet = pthread_create(&tid, NULL, UlaneDataHandleCenter, NULL);
+		 QueueMsgServerDataHandleCenter();	
 	}
 	else if(pid == 0)
 	{
@@ -381,4 +355,3 @@ int main()
   }
 	return 0;	
 }
-*/

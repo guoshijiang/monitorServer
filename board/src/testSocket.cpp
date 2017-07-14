@@ -62,7 +62,7 @@ char* CreateJsonBuf()
 void *UlaneTestTool(void *arg)
 {
 	int             iRet, ret;
-	char            socket_addr[20] = "10.0.0.103";
+	char            socket_addr[20] = "192.168.110.131";
   unsigned short  socket_port = 9999;
   size_t          send_len = 1024;
   int             recv_len = 1024;
@@ -83,9 +83,9 @@ void *UlaneTestTool(void *arg)
 	for(i = 0; i < 10; i++)
 	{
 		sleep(3);
-		sprintf(fname, "./cmd_sendmessage.json", i);
+		sprintf(fname, "./package_9.json", i);
 		data = ReadFile(fname);
-		strcat(data, "\r\n");
+		//strcat(data, "\r\n");
 		if(data == NULL)
 		{
 			printf("ReadFile err\n");

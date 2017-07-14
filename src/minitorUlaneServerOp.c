@@ -177,7 +177,7 @@ void sigint(int signo)
 }
 
  //把消息发送给所有客户端，除了iSockfd客户端, 群发
-int MsgSendToAll(int iSockfd, char *Msg, int Msglen)
+static int MsgSendToAll(int iSockfd, char *Msg, int Msglen)
 {
 	int         iTimeout   =   3;             //超时时间处理
 	int         iRet;
@@ -209,6 +209,139 @@ int MsgSendToAll(int iSockfd, char *Msg, int Msglen)
   return 0;
 }
 
+//把消息发送给所有监控坐席
+int MsgSendToAgentTypeOne(int iSockfd, char *Msg, int Msglen)
+{
+	int         iTimeout   =   3;             //超时时间处理
+	int         iRet;
+  int         index;
+  for(index = 0; index <= MsgData.maxfd ; index++)
+  {				
+    if(MsgData.clients_info[index].isEmpty == 0 || index == iSockfd || MsgData.clients_info[index].flag == 2 || MsgData.clients_info[index].flag == 3)
+    {
+  	  continue;
+    } 
+    iRet =  sckServer_send(index, iTimeout, Msg, strlen(Msg));
+	  if (iRet == Sck_ErrPeerClosed)
+	  {
+		  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"Server examination one of client close");
+	    break;
+	  }
+	  else if (iRet == Sck_ErrTimeOut)
+	  {
+		  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"Server TimeOut");
+		  continue;
+	  }
+	  else if (iRet != 0)
+	  {
+		  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"sckServer_send() err");
+		  break;
+	  } 
+	  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], index,"Msg = %s\n", Msg);  
+  }
+  return 0;
+}
+
+//把消息转发给普通坐席
+int MsgSendToAgentTypeTwo(int iSockfd, char *Msg, int Msglen, char *iAgentId)
+{
+	int         iTimeout   =   3;             //超时时间处理
+	int         iRet;
+  int         index;
+  if(iAgentId == NULL)
+  {
+  	return -1;
+  }
+  for(index = 0; index <= MsgData.maxfd ; index++)
+  {				
+    if(MsgData.clients_info[index].isEmpty == 0 || index == iSockfd || MsgData.clients_info[index].flag == 1 || MsgData.clients_info[index].flag == 3 || MsgData.clients_info[index].agentId == NULL)
+    {
+  	  continue;
+    } 
+    if(strcmp(iAgentId, MsgData.clients_info[index].agentId) == 0)
+    {
+  	  iRet =  sckServer_send(index, iTimeout, Msg, strlen(Msg));
+		  if (iRet == Sck_ErrPeerClosed)
+		  {
+			  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"Server examination one of client close");
+		    break;
+		  }
+		  else if (iRet == Sck_ErrTimeOut)
+		  {
+			  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"Server TimeOut");
+			  continue;
+		  }
+		  else if (iRet != 0)
+		  {
+			  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"sckServer_send() err");
+			  break;
+		  } 
+		  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], index,"Msg = %s\n", Msg); 
+    } 
+  }
+  return 0;
+}
+
+//举手消息处理
+int HandleRaiseHandMsg(int iSockfd, char *inJson)
+{
+	int                     iRet                 = 0;
+	int                     iTimeout;
+	char                    *sAgentId;
+  char*                   iAnswerJson;
+  char*                   outData;
+  
+  iRet  = RaiseHandReqJsonParse(inJson, iRHandRegMsg);
+	if(iRet == -1)
+  {
+  	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"RaiseHand Json DeCode Error\n");
+  	outData = CreateAnswerJson(iRHandRegMsg[0].iCmdName, "Fail", "Msg Error");
+  	if(outData == NULL)
+	  {
+	  	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"Create Answer Json Error\n");
+	  	return -1;
+	  }
+	  return -1;
+  }  
+	outData = CreateAnswerJson(iRHandRegMsg[0].iCmdName, "Ok", "Success");
+	if(outData == NULL)
+  {
+  	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"Create Answer Json Error\n");
+  	return -1;
+  }  
+  iRet =  sckServer_send(iSockfd, iTimeout, outData, strlen(outData));
+  if (iRet == Sck_ErrPeerClosed)
+  {
+	  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"Server examination one of client close");
+    return -1;
+  }
+  else if (iRet == Sck_ErrTimeOut)
+  {
+	  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"Server TimeOut");
+	  return -1;
+  }
+  else if (iRet != 0)
+  {
+	  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"sckServer_send() err");
+	  return -1;
+  } 
+  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"outData = %s", outData);
+  
+ 	iAnswerJson = CreateRaiseHandMsg(inJson);
+ 	if(iAnswerJson == NULL)
+ 	{
+ 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"CreateRaiseHandMsg Is Error");
+ 		return -1;
+ 	} 
+ 	//举手处理，发给所有的客户端
+	iRet = MsgSendToAll(iSockfd, iAnswerJson, strlen(iAnswerJson));
+	if(iRet = 0)
+	{
+		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"Success Send Raise Hand Message%s\n", iAnswerJson);	
+	}
+	return 0;
+}
+
 //消息处理中心--对已连接的客户端的数据收发处理
 void HandleTransMsg(int iSockfd, char *Msg, int Msglen)
 {	
@@ -226,18 +359,23 @@ void HandleTransMsg(int iSockfd, char *Msg, int Msglen)
 	char        *Login_outData;               //登录应答数据
 	int         Login_outLenght;
 	
+	printf("Msg = %s\n", Msg);
+	
+	//获取消息队列ID
+	msgId = GetMsgQueue();
+	if(msgId < 0)
+	{
+		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], 100,"CreatMsgQueue Error");
+		return ;
+	}
+	
 	cmdType  = CmdNameParse(Msg);
 	if(cmdType == NULL)
 	{
-		//消息分发
-		iRet = MsgSendToAll(iSockfd, Msg, Msglen);
-		if(iRet == 0)
-		{
-			Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
-		}
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], PARSEJSONERR,"cmdType Is NULL");
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], PARSEJSONERR,"%s\n", Msg);
-		//处理入库的消息
+		
+		//处理消息分发和把消息推到消息队列
 		iEventType = EveNameParse(Msg);
 		if(iEventType == NULL)
 		{
@@ -247,53 +385,67 @@ void HandleTransMsg(int iSockfd, char *Msg, int Msglen)
 		}
 		if(strcmp(iEventType, "stationstatelog")==0)
 		{
-			//分机状态明细统一入库处理  1
-			iRet = StationStateLog(Msg, &outExtJson);                        
-			if(iRet == -1)
+			//分机状态明分发  1
+			iRet = MsgSendToAgentTypeOne(iSockfd, Msg, Msglen);
+			if(iRet == 0)
 			{
-				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"StationStateLog error");
-				return ;
+				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
 			}
+			//分机状态明细推到消息队列
+			SendQueueMsg(msgId,mainThread_Type,Msg);
 		}
 		else if(strcmp(iEventType, "agentsigninlog") == 0 || strcmp(iEventType, "agentsignoutlog") == 0)
 		{
-			//签入签出明细统一入库处理  2
-			iRet = AgentSignInLog(Msg, &outExtJson); 
-			if(iRet == -1)
+			//签入签出明细分发  2
+			iRet = MsgSendToAgentTypeOne(iSockfd, Msg, Msglen);
+			if(iRet == 0)
 			{
-				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"AgentSignInLog error");
-				return ;
-			}                       
+				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
+			}
+			//签入签出明细推到消息队列
+			SendQueueMsg(msgId,mainThread_Type,Msg);                     
 		}
 		else if(strcmp(iEventType, "vdncalllog") == 0)
 		{
-			//呼入通话明细统一入库处理  3
-			iRet = VdnCallLog(Msg, &outExtJson); 
-			if(iRet == -1)
+			//呼入通话明细分发  3
+			iRet = MsgSendToAgentTypeOne(iSockfd, Msg, Msglen);
+			if(iRet == 0)
 			{
-				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"VdnCallLog error");
-				return ;
-			}                             
+				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
+			}
+			//呼入通话明细推到消息队列
+			SendQueueMsg(msgId,mainThread_Type,Msg);                             
 		}
 		else if(strcmp(iEventType, "stationcalllog") == 0)  
-		{
-			//呼出通话明细统一入库处理  4 
-			iRet = StationCallLog(Msg, &outExtJson);
-			if(iRet == -1)
+		{ 
+			//呼出通话明细分发  4 
+			iRet = MsgSendToAgentTypeOne(iSockfd, Msg, Msglen);
+			if(iRet == 0)
 			{
-				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"StationCallLog error");
-				return ;
-			}                          
+				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
+			}
+			
+			//呼出通话明细推到消息队列
+			SendQueueMsg(msgId,mainThread_Type,Msg);                          
 		}
 		else if(strcmp(iEventType, "agentstatelog") == 0)  
 		{
-			//坐席实时状态入库处理  5
-			iRet = AgentStateLog(Msg, &outExtJson); 
-			if(iRet == -1)
+			//坐席实时状态分发到所有监控坐席  5
+			iRet = MsgSendToAgentTypeOne(iSockfd, Msg, Msglen);
+			if(iRet == 0)
 			{
-				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"AgentStateLog error");
-				return ;
-			}                          
+				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
+			} 
+			
+			//坐席实时状态推到消息队列
+			SendQueueMsg(msgId,mainThread_Type,Msg); 
+			
+			//坐席实时状态分发普通监控坐席
+			iRet = MsgSendToAgentTypeTwo(iSockfd, Msg, Msglen, "2001");
+			if(iRet == 0)
+			{
+				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
+			}                        
 		}
 		return ;
 	}
@@ -324,21 +476,15 @@ void HandleTransMsg(int iSockfd, char *Msg, int Msglen)
 	}
 	else if(strcmp(cmdType, "cmd_raisehand") == 0)
 	{	
-		//举手处理，发给所有的客户端
-		iRet = MsgSendToAll(iSockfd, Msg, Msglen);
-		if(iRet == 0)
+		HandleRaiseHandMsg(iSockfd, Msg);
+		if(iRet == -1)
 		{
-			Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
-		}
-		else
-		{
-			Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"Send Raise Hand Error");
-			return ;	
+			Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"RaiseHandMsg Error");	
 		}
 	}
 	else if(strcmp(cmdType, "cmd_sendmessage") == 0)
 	{
-		HandleSendMsg(iSockfd, Msg, &outData);
+		HandleSendMsg(iSockfd, Msg);
 	}
 	else
 	{
@@ -347,11 +493,10 @@ void HandleTransMsg(int iSockfd, char *Msg, int Msglen)
 	}
 } 
 
-//消息发送处理
-int HandleSendMsg(int iSockfd, char *inJson, char** outJson)
+//处理消息发送接口
+int HandleSendMsg(int iSockfd, char *inJson)
 {
 	int                     iRet         = 0;
-	char                    *outData     = NULL;
 	int                     outLen;	
 	int                     index;
 	int                     iTimeout;
@@ -359,6 +504,8 @@ int HandleSendMsg(int iSockfd, char *inJson, char** outJson)
 	int                     iTem          = 0;
 	msgAgentId              toAgentId[1024]      = {{0}};
   int                     i;
+  char*                   iAnswerJson;
+  char*                   outData;
 	iRet  = SendMsgJsonParse(inJson, iSendMsg);
 	if(iRet == -1)
   {
@@ -369,10 +516,38 @@ int HandleSendMsg(int iSockfd, char *inJson, char** outJson)
 	  	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"Create Answer Json Error\n");
 	  	return -1;
 	  }
-	  *outJson = outData;
-	  outLen  = strlen(outData);
-  	return outLen;
+	  return -1;
+  }  
+	outData = CreateAnswerJson(iLogon[0].iCmdName, "Ok", "Success");
+	if(outData == NULL)
+  {
+  	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"Create Answer Json Error\n");
+  	return -1;
+  }  
+  iRet =  sckServer_send(iSockfd, iTimeout, outData, strlen(outData));
+  if (iRet == Sck_ErrPeerClosed)
+  {
+	  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"Server examination one of client close");
+    return -1;
   }
+  else if (iRet == Sck_ErrTimeOut)
+  {
+	  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"Server TimeOut");
+	  return -1;
+  }
+  else if (iRet != 0)
+  {
+	  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"sckServer_send() err");
+	  return -1;
+  } 
+  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], index,"outData = %s", outData);
+  
+ 	iAnswerJson = CreateSendMessage(inJson);
+ 	if(iAnswerJson == NULL)
+ 	{
+ 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], index,"CreateSendMessage Is Error");
+ 		return -1;
+ 	} 
   sAgentId = strtok(iSendMsg[0].iToAgentId, "|");
  	while(sAgentId != NULL)
  	{	
@@ -380,21 +555,23 @@ int HandleSendMsg(int iSockfd, char *inJson, char** outJson)
  		sAgentId = strtok(NULL, "|");
  		iTem++;
  	}
- 	for (index = 0; index <= MsgData.maxfd ; index++)
+ 	printf("iTem = %d\n", iTem);
+ 	for(index = 0; index <= MsgData.maxfd; index++)
   {				
-    if (MsgData.clients_info[index].isEmpty == 0 || index == iSockfd)
+    if (MsgData.clients_info[index].isEmpty == 0 || index == iSockfd || MsgData.clients_info[index].agentId == NULL)
     {
   	  continue;
     }
     for(i = 0; i < iTem; i++)
     {
-    	if(MsgData.clients_info[index].agentId == NULL || toAgentId[i].iToAgentId == NULL)
+    	if(toAgentId[i].iToAgentId == NULL)
     	{
     		 continue;	
     	}
+    	printf("toAgentId[%d].iToAgentId = %s\n", i, toAgentId[i].iToAgentId);
     	if(strcmp(MsgData.clients_info[index].agentId, toAgentId[i].iToAgentId) == 0)
     	{
-    		iRet =  sckServer_send(index, iTimeout, inJson, strlen(inJson));
+    		iRet =  sckServer_send(index, iTimeout, iAnswerJson, strlen(iAnswerJson));
 			  if (iRet == Sck_ErrPeerClosed)
 			  {
 				  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"Server examination one of client close");
@@ -410,17 +587,15 @@ int HandleSendMsg(int iSockfd, char *inJson, char** outJson)
 				  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"sckServer_send() err");
 				  break;
 			  } 
-			  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], index,"inJson = %s\n", inJson); 
+			  Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], index,"iAnswerJson = %s\n", iAnswerJson); 
+    	}
+    	else
+    	{
+    		continue;
     	}
     }   
   }
   return 0;	
-}
-
-//举手消息处理
-int RaiseHandMsg(int iSockfd, char *inJson, char** outJson)
-{
-	return 0;
 }
 
 //获取Unix下的当前时间
@@ -484,7 +659,7 @@ int TerminalLogin(int iSockfd, char *inJson, char** outJson)
   return outLen;
 }
 
-//分机状态明细统一处理
+//分机状态明细入库处理
 int StationStateLog(char *inJson, char** outJson)
 {
 	int                iRet          =   0;
@@ -726,7 +901,7 @@ int StationStateLog(char *inJson, char** outJson)
 	*outJson = inJson;
 }
 
-//签入签出明细统一处理
+//签入签出明细入库处理
 int AgentSignInLog(char *inJson, char** outJson)
 {
 	int                iRet          =   0;
@@ -931,7 +1106,7 @@ int AgentSignInLog(char *inJson, char** outJson)
 	*outJson = inJson;
 }
 
-//呼入通话明细统一处理
+//呼入通话明细入库处理
 int VdnCallLog(char *inJson, char** outJson)
 {
 	int                iRet          =   0;
@@ -1344,7 +1519,7 @@ int VdnCallLog(char *inJson, char** outJson)
 	*outJson = inJson;
 }
 
-//呼出通话明细统一处理
+//呼出通话明细入库处理
 int StationCallLog(char *inJson, char** outJson)
 {
 	int                iRet          =   0;
@@ -1760,7 +1935,7 @@ int StationCallLog(char *inJson, char** outJson)
 	*outJson = inJson;
 }
 
-//坐席实时状态统一处理
+//坐席实时状态删除和入库处理
 int AgentStateLog(char *inJson, char** outJson)
 {
 	int                iRet          =   0;
@@ -2038,7 +2213,3 @@ int SkillQueueInfo(char *inJson, char** outJson)
 {
 	return 0;
 }
-
-
-
-

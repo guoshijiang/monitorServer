@@ -26,7 +26,7 @@ char *CmdNameParse(char *lpJStr)
    if( pJson == NULL)
    {
 	 	 Ulane_JsonWriteLog(__FILE__, __LINE__, Json_LogLevel[2], PARSEJSONERR,"pJson is NULL");
-	   //cJSON_Delete(pJson);
+	   cJSON_Delete(pJson);
 	   return NULL;
    }
    if (pJson->type == cJSON_Object )
@@ -40,10 +40,9 @@ char *CmdNameParse(char *lpJStr)
        return NULL;
      } 
      Ulane_JsonWriteLog(__FILE__, __LINE__, Json_LogLevel[2], PARSEJSONERR,"%s\n", pJsonObj->valuestring);
-     return pJsonObj->valuestring;
    }
+   return pJsonObj->valuestring;
    cJSON_Delete(pJson);
-   //cJSON_Delete(pJsonObj); 
 }
 
 //解析举手请求的JSON串

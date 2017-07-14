@@ -1,15 +1,17 @@
 {
-	"cmdName": "cmd_raisehand",
-	"agentid": "1002",
-	"raisehandid": "1001",
-	"eventtype": "",
-	"eventitem": "",
-	"station": "agenttype_1"
-	"memo": "agenttype_1"
-	"raisehandtime": "agenttype_1"
-	"requestagent":	"1001"
-	"answertype": "agenttype_1"
-	"organizationid": "agenttype_1"
+  "cmdName":	"cmd_raisehand",
+	"agentid":	"1001",
+	"raisehandid":	"agentname",
+	"eventtype":	"73ADC749-2FA7-412C-9189-653ABB34E2FD",
+	"eventitem":	"2001|2002",
+	"station" : "2003",
+	"memo":	"9011",
+	"raisehandtime":	"",
+	"requestagent":	"2",
+	"answertype":	"aaaaaaaa",
+	"organizationid":	"",
 	"organizationname":	"agenttype_1"
 }eof
+
+
 
