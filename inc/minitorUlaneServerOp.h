@@ -1,14 +1,14 @@
 /*=============================================================
- *ÎÄ¼þÃû³Æ: minitorUlaneServer.h
- *´´½¨Ê±¼ä: 2017.6.23
- *×÷    Õß: ¹ùÊÀ½­
- *ÐÞ¸Ä¼ÇÂ¼:
- *2017.6.23 ´´½¨ÎÄ¼þ
- *¹¦ÄÜÃèÊö£ºÒµÎñ´¦Àí
+ *æ–‡ä»¶åç§°: minitorUlaneServer.h
+ *åˆ›å»ºæ—¶é—´: 2017.6.23
+ *ä½œ    è€…: éƒ­ä¸–æ±Ÿ
+ *ä¿®æ”¹è®°å½•:
+ *2017.6.23 åˆ›å»ºæ–‡ä»¶
+ *åŠŸèƒ½æè¿°ï¼šä¸šåŠ¡å¤„ç†
  * ===========================================================*/
 #ifndef _MINITORSERVER_H_
 #define _MINITORSERVER_H_
-//Í·ÎÄ¼þÇøÓò
+//å¤´æ–‡ä»¶åŒºåŸŸ
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -33,22 +33,22 @@
 extern "C" {
 #endif
 
-//ºê¶¨ÒåÇøÓò
+//å®å®šä¹‰åŒºåŸŸ
 #define SERVERINFOLEN        64
 #define MAXLINE              10240
 #define MAX_LISTEN           10
 #define MAXCONNQ             30
 #define AGENTLEN             64
-#define ALLCLIENTNUM         -1             //Èº·¢
-#define SINGLECLIENTNUM       0             //µ¥·¢
-#define LOGINNUM              1             //µÇÂ¼    
+#define ALLCLIENTNUM         -1             //ç¾¤å‘
+#define SINGLECLIENTNUM       0             //å•å‘
+#define LOGINNUM              1             //ç™»å½•    
 
-//´íÎóÂëµÄ¶¨ÒåÇøÓò
+//é”™è¯¯ç çš„å®šä¹‰åŒºåŸŸ
 #define SERVINITERR         1000
 #define DECODEEXTJSONERR    1001
 #define ANSWERSUCC          1002
 
-//SQLÓï¾ä¶¨ÒåÇøÓò
+//SQLè¯­å¥å®šä¹‰åŒºåŸŸ
 #define INSERT_StationStateLog "INSERT INTO m_stationstatelog \
 (ID, AgentID, Station, From_STR, State, AUX_Code, Begintime, Endtime, StateInfo, CustPhone, CallDirect, Split)\
 VALUES(?,?,?,?,?,?,?,?,?,?,?,?)"
@@ -67,35 +67,35 @@ UCID, From_STR) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
 HoldCount, ConsultCount, ConferenceCount, Next_UCID, Next_CallID, From_STR, CRT_DT )\
 VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
  
-//×øÏ¯ÊµÊ±×´Ì¬SQLÔ¤´¦ÀíÇøÓò
+//åå¸­å®žæ—¶çŠ¶æ€SQLé¢„å¤„ç†åŒºåŸŸ
 #define DELETE_AgentStateLog "DELETE FROM m_state"
 #define INSERT_AgentStateLog "INSERT INTO m_state(ID, AgentID, Station, LogonTime, State, AUX_Code, \
 Begintime, Pre_aux, pre_state, StateInfo, CustPhone, CallDirect, Split, CRT_DT )\
 VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
 
-//Êý¾ÝÀàÐÍ¶¨ÒåÇøÓò
+//æ•°æ®ç±»åž‹å®šä¹‰åŒºåŸŸ
 typedef struct _UlaneServerInfo
 {
-	char           iSerId[SERVERINFOLEN];                   //·þÎñ¶Ë±àºÅ
-	char           iSerIP[SERVERINFOLEN];                   //·þÎñÆ÷IP
-	unsigned short iSerPort;                                //·þÎñÆ÷¶ËµÄ¶Ë¿Ú
-	char           iDBHost[SERVERINFOLEN];                  //Êý¾Ý¿âµÄÖ÷»úµØÖ·
-	char           iDBUser[SERVERINFOLEN];                  //Êý¾Ý¿âµÄµÇÂ¼ÓÃ»§Ãû
-	char           iDBPasswd[SERVERINFOLEN];                //Êý¾Ý¿âµÇÂ¼ÃÜÂë
-	char           iDBName[SERVERINFOLEN];                  //Ê¹ÓÃµÄÊý¾Ý¿âÃû×Ö
-	unsigned int   iDBPort;                                 //Ä¬ÈÏ´«0
-  char           iDBUnixSock[SERVERINFOLEN];              //Ä¬ÈÏ´«¿Õ              
-	unsigned long  iDBClientFlag;                           //Ä¬ÈÏ´«0                          
+	char           iSerId[SERVERINFOLEN];                   //æœåŠ¡ç«¯ç¼–å·
+	char           iSerIP[SERVERINFOLEN];                   //æœåŠ¡å™¨IP
+	unsigned short iSerPort;                                //æœåŠ¡å™¨ç«¯çš„ç«¯å£
+	char           iDBHost[SERVERINFOLEN];                  //æ•°æ®åº“çš„ä¸»æœºåœ°å€
+	char           iDBUser[SERVERINFOLEN];                  //æ•°æ®åº“çš„ç™»å½•ç”¨æˆ·å
+	char           iDBPasswd[SERVERINFOLEN];                //æ•°æ®åº“ç™»å½•å¯†ç 
+	char           iDBName[SERVERINFOLEN];                  //ä½¿ç”¨çš„æ•°æ®åº“åå­—
+	unsigned int   iDBPort;                                 //é»˜è®¤ä¼ 0
+  char           iDBUnixSock[SERVERINFOLEN];              //é»˜è®¤ä¼ ç©º              
+	unsigned long  iDBClientFlag;                           //é»˜è®¤ä¼ 0                          
 }UlaneServerInfo;
 
-//¿Í»§¶ËµÇÂ¼ÐÅÏ¢½á¹¹Ìå
+//å®¢æˆ·ç«¯ç™»å½•ä¿¡æ¯ç»“æž„ä½“
 struct iClientInfo{
     int isEmpty;                   
-    char *agentId;                  //¿Í»§¶Ëagentid
-    int  flag;                      //±êÖ¾Î»
+    ULANE_Array agentId;            //å®¢æˆ·ç«¯agentid
+    int  flag;                      //æ ‡å¿—ä½
 };
 
-//¿Í»§¶ËµÇÂ¼½á¹¹Ìå´¦Àí
+//å®¢æˆ·ç«¯ç™»å½•ç»“æž„ä½“å¤„ç†
 struct client{
     struct iClientInfo clients_info[FD_SETSIZE];
     int maxfd;
@@ -106,7 +106,7 @@ typedef struct MsgToAgentId
 	ULANE_Array iToAgentId;	
 }msgAgentId;
 
-//È«¾Ö±äÁ¿¶¨Òå
+//å…¨å±€å˜é‡å®šä¹‰
 struct client                   MsgData;
 sem_t                           sem;
 char                            retime[20];
@@ -114,139 +114,139 @@ UlaneServerInfo                 iServerInfo;
 ULANESQL                        iSql;
 
 /*=========================================================
- *º¯ÊýÈë²Î:  iUlaneServerInfo    ³õÊ¼»¯ÐÅÏ¢´æ·ÅµÄ½á¹¹Ìå
- *º¯Êý³ö²Î:  ÎÞ
- *·µ»ØÖµ:    ³É¹¦·µ»Ø 0£¬ Ê§°Ü·µ»Ø´íÎóÂë
- *¹¦ÄÜËµÃ÷:  ³õÊ¼»¯·þÎñ¶ËµÄÐÅÏ¢
+ *å‡½æ•°å…¥å‚:  iUlaneServerInfo    åˆå§‹åŒ–ä¿¡æ¯å­˜æ”¾çš„ç»“æž„ä½“
+ *å‡½æ•°å‡ºå‚:  æ— 
+ *è¿”å›žå€¼:    æˆåŠŸè¿”å›ž 0ï¼Œ å¤±è´¥è¿”å›žé”™è¯¯ç 
+ *åŠŸèƒ½è¯´æ˜Ž:  åˆå§‹åŒ–æœåŠ¡ç«¯çš„ä¿¡æ¯
  *===========================================================*/
 int Ulane_ServerInfoInit(UlaneServerInfo* iServerInfo);
 
 /*=========================================================
- *º¯ÊýÈë²Î:  
- *º¯Êý³ö²Î:  
- *·µ»ØÖµ:   
- *¹¦ÄÜËµÃ÷:Êý¾Ý¿â³õÊ¼»¯
+ *å‡½æ•°å…¥å‚:  
+ *å‡½æ•°å‡ºå‚:  
+ *è¿”å›žå€¼:   
+ *åŠŸèƒ½è¯´æ˜Ž:æ•°æ®åº“åˆå§‹åŒ–
  *===========================================================*/
 ULANESQL Ulane_ServerDBInit(ULANESTR iHost, ULANESTR iUser, ULANESTR iPasswd, ULANESTR iDbName, ULANEUNSIGNINT iPort, ULANESTR iUnixSock, ULANELONG iClientFlag);
 
 /*=========================================================
- *º¯ÊýÈë²Î:  
- *º¯Êý³ö²Î:  
- *·µ»ØÖµ:   
- *¹¦ÄÜËµÃ÷:ÐÅºÅ´¦Àí
+ *å‡½æ•°å…¥å‚:  
+ *å‡½æ•°å‡ºå‚:  
+ *è¿”å›žå€¼:   
+ *åŠŸèƒ½è¯´æ˜Ž:ä¿¡å·å¤„ç†
  *===========================================================*/
 void sigint(int signo);
 
 /*=========================================================
- *º¯ÊýÈë²Î:  
- *º¯Êý³ö²Î:  
- *·µ»ØÖµ:
- *¹¦ÄÜËµÃ÷:ÏûÏ¢·¢ËÍ¸øËùÓÐ¿Í»§¶Ë
+ *å‡½æ•°å…¥å‚:  
+ *å‡½æ•°å‡ºå‚:  
+ *è¿”å›žå€¼:
+ *åŠŸèƒ½è¯´æ˜Ž:æ¶ˆæ¯å‘é€ç»™æ‰€æœ‰å®¢æˆ·ç«¯
  *===========================================================*/
 static int MsgSendToAll(int iSockfd, char *Msg, int Msglen);
 
 /*=========================================================
- *º¯ÊýÈë²Î:  
- *º¯Êý³ö²Î:  
- *·µ»ØÖµ:
- *¹¦ÄÜËµÃ÷:°ÑÏûÏ¢·¢ËÍ¸øËùÓÐµÄ¼à¿Ø×øÏ¯
+ *å‡½æ•°å…¥å‚:  
+ *å‡½æ•°å‡ºå‚:  
+ *è¿”å›žå€¼:
+ *åŠŸèƒ½è¯´æ˜Ž:æŠŠæ¶ˆæ¯å‘é€ç»™æ‰€æœ‰çš„ç›‘æŽ§åå¸­
  *===========================================================*/
 int MsgSendToAgentTypeOne(int iSockfd, char *Msg, int Msglen);
 
 /*=========================================================
- *º¯ÊýÈë²Î:  
- *º¯Êý³ö²Î:  
- *·µ»ØÖµ:
- *¹¦ÄÜËµÃ÷:°ÑÏûÏ¢×ª·¢¸øÆÕÍ¨×øÏ¯
+ *å‡½æ•°å…¥å‚:  
+ *å‡½æ•°å‡ºå‚:  
+ *è¿”å›žå€¼:
+ *åŠŸèƒ½è¯´æ˜Ž:æŠŠæ¶ˆæ¯è½¬å‘ç»™æ™®é€šåå¸­
  *===========================================================*/
 int MsgSendToAgentTypeTwo(int iSockfd, char *Msg, int Msglen, char *iAgentId);
 
 /*=========================================================
- *º¯ÊýÈë²Î:  
- *º¯Êý³ö²Î:  
- *·µ»ØÖµ:  
- *¹¦ÄÜËµÃ÷:×ª·¢ÏûÏ¢,¶ÔÒÑÁ¬½ÓµÄ¿Í»§¶ËµÄÊý¾ÝÊÕ·¢´¦Àí
+ *å‡½æ•°å…¥å‚:  
+ *å‡½æ•°å‡ºå‚:  
+ *è¿”å›žå€¼:  
+ *åŠŸèƒ½è¯´æ˜Ž:è½¬å‘æ¶ˆæ¯,å¯¹å·²è¿žæŽ¥çš„å®¢æˆ·ç«¯çš„æ•°æ®æ”¶å‘å¤„ç†
  *===========================================================*/
 void HandleTransMsg(int iSockfd, char *Msg, int Msglen);
 
 /*=========================================================
-*º¯ÊýÈë²Î: inJson  ¿Í»§¶Ë·¢¹ýÀ´µÄJson´®
-*º¯Êý³ö²Î: outJson ´¦ÀíÖ®ºó´«³öµÄJSON´®
-					 outLen  ´¦Àí³öÈ¥µÄjson´®µÄ³¤¶È
-*·µ»ØÖµ:   ³É¹¦·µ»ØÊÂ¼þµÄÀàÐÍ£¬ Ê§°Ü·µ»ØNULL
-*¹¦ÄÜËµÃ÷: ÖÕ¶ËµÇÂ¼½Ó¿Ú
+*å‡½æ•°å…¥å‚: inJson  å®¢æˆ·ç«¯å‘è¿‡æ¥çš„Jsonä¸²
+*å‡½æ•°å‡ºå‚: outJson å¤„ç†ä¹‹åŽä¼ å‡ºçš„JSONä¸²
+					 outLen  å¤„ç†å‡ºåŽ»çš„jsonä¸²çš„é•¿åº¦
+*è¿”å›žå€¼:   æˆåŠŸè¿”å›žäº‹ä»¶çš„ç±»åž‹ï¼Œ å¤±è´¥è¿”å›žNULL
+*åŠŸèƒ½è¯´æ˜Ž: ç»ˆç«¯ç™»å½•æŽ¥å£
 *===========================================================*/
 int TerminalLogin(int iSockfd, char *inJson, char** outJson);
 
 /*=========================================================
-*º¯ÊýÈë²Î:ÎÞ   
-*º¯Êý³ö²Î:ÎÞ
-*·µ»ØÖµ:·µ»Øµ±ÈÕÈÕÆÚ×Ö·û´®
-*¹¦ÄÜËµÃ÷:»ñÈ¡ÏµÍ³µÄÊ±¼ä
+*å‡½æ•°å…¥å‚:æ—    
+*å‡½æ•°å‡ºå‚:æ— 
+*è¿”å›žå€¼:è¿”å›žå½“æ—¥æ—¥æœŸå­—ç¬¦ä¸²
+*åŠŸèƒ½è¯´æ˜Ž:èŽ·å–ç³»ç»Ÿçš„æ—¶é—´
 *===========================================================*/
 char *Timer();
 
 /*=========================================================
-*º¯ÊýÈë²Î:inJson¿Í»§¶Ë·¢¹ýÀ´µÄJson´®
-*º¯Êý³ö²Î:outJson´¦ÀíÖ®ºó´«³öµÄJSON´®			 
-*·µ»ØÖµ:    
-*¹¦ÄÜËµÃ÷:·Ö»ú×´Ì¬Ã÷Ï¸Í³Ò»´¦Àí
+*å‡½æ•°å…¥å‚:inJsonå®¢æˆ·ç«¯å‘è¿‡æ¥çš„Jsonä¸²
+*å‡½æ•°å‡ºå‚:outJsonå¤„ç†ä¹‹åŽä¼ å‡ºçš„JSONä¸²			 
+*è¿”å›žå€¼:    
+*åŠŸèƒ½è¯´æ˜Ž:åˆ†æœºçŠ¶æ€æ˜Žç»†ç»Ÿä¸€å¤„ç†
 *===========================================================*/
 int StationStateLog(char *inJson, char** outJson);
 
 /*=========================================================
-*º¯ÊýÈë²Î:  inJson  ¿Í»§¶Ë·¢¹ýÀ´µÄJson´®
-*º¯Êý³ö²Î:  outJson ´¦ÀíÖ®ºó´«³öµÄJSON´®				 
-*·µ»ØÖµ:    
-*¹¦ÄÜËµÃ÷:  Ç©ÈëÇ©³öÃ÷Ï¸Í³Ò»´¦Àí
+*å‡½æ•°å…¥å‚:  inJson  å®¢æˆ·ç«¯å‘è¿‡æ¥çš„Jsonä¸²
+*å‡½æ•°å‡ºå‚:  outJson å¤„ç†ä¹‹åŽä¼ å‡ºçš„JSONä¸²				 
+*è¿”å›žå€¼:    
+*åŠŸèƒ½è¯´æ˜Ž:  ç­¾å…¥ç­¾å‡ºæ˜Žç»†ç»Ÿä¸€å¤„ç†
 *===========================================================*/
 int AgentSignInLog(char *inJson, char** outJson);
 
 /*=========================================================
-*º¯ÊýÈë²Î:  inJson  ¿Í»§¶Ë·¢¹ýÀ´µÄJson´®
-*º¯Êý³ö²Î:  outJson ´¦ÀíÖ®ºó´«³öµÄJSON´®			 
-*·µ»ØÖµ:    
-*¹¦ÄÜËµÃ÷:  ºôÈëÍ¨»°Ã÷Ï¸Í³Ò»´¦Àí
+*å‡½æ•°å…¥å‚:  inJson  å®¢æˆ·ç«¯å‘è¿‡æ¥çš„Jsonä¸²
+*å‡½æ•°å‡ºå‚:  outJson å¤„ç†ä¹‹åŽä¼ å‡ºçš„JSONä¸²			 
+*è¿”å›žå€¼:    
+*åŠŸèƒ½è¯´æ˜Ž:  å‘¼å…¥é€šè¯æ˜Žç»†ç»Ÿä¸€å¤„ç†
 *===========================================================*/
 int VdnCallLog(char *inJson, char** outJson);
 
 /*=========================================================
-*º¯ÊýÈë²Î:  inJson  ¿Í»§¶Ë·¢¹ýÀ´µÄJson´®
-*º¯Êý³ö²Î:  outJson ´¦ÀíÖ®ºó´«³öµÄJSON´®			 
-*·µ»ØÖµ:    
-*¹¦ÄÜËµÃ÷:  ºô³öÍ¨»°Ã÷Ï¸Í³Ò»´¦Àí
+*å‡½æ•°å…¥å‚:  inJson  å®¢æˆ·ç«¯å‘è¿‡æ¥çš„Jsonä¸²
+*å‡½æ•°å‡ºå‚:  outJson å¤„ç†ä¹‹åŽä¼ å‡ºçš„JSONä¸²			 
+*è¿”å›žå€¼:    
+*åŠŸèƒ½è¯´æ˜Ž:  å‘¼å‡ºé€šè¯æ˜Žç»†ç»Ÿä¸€å¤„ç†
 *===========================================================*/
 int StationCallLog(char *inJson, char** outJson);
 
 /*=========================================================
-*º¯ÊýÈë²Î:  inJson  ¿Í»§¶Ë·¢¹ýÀ´µÄJson´®
-*º¯Êý³ö²Î:  outJson ´¦ÀíÖ®ºó´«³öµÄJSON´®				 
-*·µ»ØÖµ:    
-*¹¦ÄÜËµÃ÷:  ×øÏ¯ÊµÊ±×´Ì¬Í³Ò»´¦Àí
+*å‡½æ•°å…¥å‚:  inJson  å®¢æˆ·ç«¯å‘è¿‡æ¥çš„Jsonä¸²
+*å‡½æ•°å‡ºå‚:  outJson å¤„ç†ä¹‹åŽä¼ å‡ºçš„JSONä¸²				 
+*è¿”å›žå€¼:    
+*åŠŸèƒ½è¯´æ˜Ž:  åå¸­å®žæ—¶çŠ¶æ€ç»Ÿä¸€å¤„ç†
 *===========================================================*/
 int AgentStateLog(char *inJson, char** outJson);
 
 /*=========================================================
-*º¯ÊýÈë²Î:  inJson  ¿Í»§¶Ë·¢¹ýÀ´µÄJson´®
-*º¯Êý³ö²Î:  outJson ´¦ÀíÖ®ºó´«³öµÄJSON´®			 
-*·µ»ØÖµ:    
-*¹¦ÄÜËµÃ÷:  ¼¼ÄÜ×éÊµÊ±ÅÅ¶ÓÐÅÏ¢Í³Ò»´¦Àí(ÔÝÊ±²»×ö´¦Àí)
+*å‡½æ•°å…¥å‚:  inJson  å®¢æˆ·ç«¯å‘è¿‡æ¥çš„Jsonä¸²
+*å‡½æ•°å‡ºå‚:  outJson å¤„ç†ä¹‹åŽä¼ å‡ºçš„JSONä¸²			 
+*è¿”å›žå€¼:    
+*åŠŸèƒ½è¯´æ˜Ž:  æŠ€èƒ½ç»„å®žæ—¶æŽ’é˜Ÿä¿¡æ¯ç»Ÿä¸€å¤„ç†(æš‚æ—¶ä¸åšå¤„ç†)
 *===========================================================*/
 int SkillQueueInfo(char *inJson, char** outJson);
 
 /*=========================================================
-*º¯ÊýÈë²Î:  
-*º¯Êý³ö²Î:  		 
-*·µ»ØÖµ:    
-*¹¦ÄÜËµÃ÷:¾ÙÊÖÏûÏ¢´¦Àí
+*å‡½æ•°å…¥å‚:  
+*å‡½æ•°å‡ºå‚:  		 
+*è¿”å›žå€¼:    
+*åŠŸèƒ½è¯´æ˜Ž:ä¸¾æ‰‹æ¶ˆæ¯å¤„ç†
 *===========================================================*/
 int HandleRaiseHandMsg(int iSockfd, char *inJson);
 
 /*=========================================================
-*º¯ÊýÈë²Î:  
-*º¯Êý³ö²Î:  		 
-*·µ»ØÖµ:    
-*¹¦ÄÜËµÃ÷:ÏûÏ¢·¢ËÍ´¦Àí
+*å‡½æ•°å…¥å‚:  
+*å‡½æ•°å‡ºå‚:  		 
+*è¿”å›žå€¼:    
+*åŠŸèƒ½è¯´æ˜Ž:æ¶ˆæ¯å‘é€å¤„ç†
 *===========================================================*/
 int HandleSendMsg(int iSockfd, char *inJson);
 
