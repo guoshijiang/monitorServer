@@ -1,10 +1,10 @@
 /*=============================================================
- *ÎÄ¼şÃû³Æ: minitorUlaneServer.c
- *´´½¨Ê±¼ä: 2017.6.23
- *×÷    Õß: ¹ùÊÀ½­
- *ĞŞ¸Ä¼ÇÂ¼:
- *2017.6.23 ´´½¨ÎÄ¼ş
- *¹¦ÄÜÃèÊö£ºÒµÎñ´¦Àí
+ *æ–‡ä»¶åç§°: minitorUlaneServer.c
+ *åˆ›å»ºæ—¶é—´: 2017.6.23
+ *ä½œ    è€…: éƒ­ä¸–æ±Ÿ
+ *ä¿®æ”¹è®°å½•:
+ *2017.6.23 åˆ›å»ºæ–‡ä»¶
+ *åŠŸèƒ½æè¿°ï¼šä¸šåŠ¡å¤„ç†
  * ===========================================================*/
 #include <unistd.h>
 #include <sys/types.h>
@@ -28,17 +28,17 @@
 
 #define STRING_SIZE 1024
 
-//È«¾Ö±äÁ¿¶¨Òå
+//å…¨å±€å˜é‡å®šä¹‰
 ULANE_ExtStateLog       iStateLog[1024]      = {{0}};    
 ULANE_AgentSignInLog    iSignInOutLog[1024]  = {{0}};
 ULANE_VDNCallLog        iVDNCallLog[1024]    = {{0}};
 ULANE_StationCallLog    iStationCallLog[1024]= {{0}};
 ULANE_AgentStateLog     iAgentStateLog[1024] = {{0}};
-ULANE_RaiseHandReqMsg   iRHandRegMsg[1024]   = {{0}};   //¾ÙÊÖ
-ULANE_SendMsg           iSendMsg[1024]       = {{0}};   //·¢ËÍÏûÏ¢
-ULANE_AgentLogon        iLogon[1024]         = {{0}};   //µÇÂ¼
+ULANE_RaiseHandReqMsg   iRHandRegMsg[1024]   = {{0}};   //ä¸¾æ‰‹
+ULANE_SendMsg           iSendMsg[1024]       = {{0}};   //å‘é€æ¶ˆæ¯
+ULANE_AgentLogon        iLogon[1024]         = {{0}};   //ç™»å½•
 
-//³õÊ¼»¯·şÎñ¶ËµÄĞÅÏ¢
+//åˆå§‹åŒ–æœåŠ¡ç«¯çš„ä¿¡æ¯
 int Ulane_ServerInfoInit(UlaneServerInfo* iServerInfo) 
 {
 	char              *uSerId;
@@ -81,7 +81,7 @@ int Ulane_ServerInfoInit(UlaneServerInfo* iServerInfo)
 	iUserPort = atoi(uSerPort);
 	iServerInfo->iSerPort  = iUserPort;
 	
-	//Êı¾İ¿â²¿·Ö
+	//æ•°æ®åº“éƒ¨åˆ†
 	uDBHost = ReadConItem("iDBHost");
 	if(uDBHost == NULL)
 	{
@@ -143,7 +143,7 @@ int Ulane_ServerInfoInit(UlaneServerInfo* iServerInfo)
 	return 0;	
 }
 
-//Êı¾İ¿â³õÊ¼»¯
+//æ•°æ®åº“åˆå§‹åŒ–
 ULANESQL Ulane_ServerDBInit(ULANESTR iHost, ULANESTR iUser, ULANESTR iPasswd, ULANESTR iDbName, ULANEUNSIGNINT iPort, ULANESTR iUnixSock, ULANELONG iClientFlag)
 {
 	ULANESQL          uSql;
@@ -164,7 +164,7 @@ ULANESQL Ulane_ServerDBInit(ULANESTR iHost, ULANESTR iUser, ULANESTR iPasswd, UL
 	return 	iUsql;
 }
 
-//µÈ´ı×Ó½ø³Ì½áÊø²¢´¦ÀíÉÆºó¹¤×÷
+//ç­‰å¾…å­è¿›ç¨‹ç»“æŸå¹¶å¤„ç†å–„åå·¥ä½œ
 void sigint(int signo)
 {								
   int       i;
@@ -176,10 +176,10 @@ void sigint(int signo)
   exit(0);
 }
 
- //°ÑÏûÏ¢·¢ËÍ¸øËùÓĞ¿Í»§¶Ë£¬³ıÁËiSockfd¿Í»§¶Ë, Èº·¢
+ //æŠŠæ¶ˆæ¯å‘é€ç»™æ‰€æœ‰å®¢æˆ·ç«¯ï¼Œé™¤äº†iSockfdå®¢æˆ·ç«¯, ç¾¤å‘
 static int MsgSendToAll(int iSockfd, char *Msg, int Msglen)
 {
-	int         iTimeout   =   3;             //³¬Ê±Ê±¼ä´¦Àí
+	int         iTimeout   =   3;             //è¶…æ—¶æ—¶é—´å¤„ç†
 	int         iRet;
   int         index;
   for (index = 0; index <= MsgData.maxfd ; index++)
@@ -209,10 +209,10 @@ static int MsgSendToAll(int iSockfd, char *Msg, int Msglen)
   return 0;
 }
 
-//°ÑÏûÏ¢·¢ËÍ¸øËùÓĞ¼à¿Ø×øÏ¯
+//æŠŠæ¶ˆæ¯å‘é€ç»™æ‰€æœ‰ç›‘æ§åå¸­
 int MsgSendToAgentTypeOne(int iSockfd, char *Msg, int Msglen)
 {
-	int         iTimeout   =   3;             //³¬Ê±Ê±¼ä´¦Àí
+	int         iTimeout   =   3;             //è¶…æ—¶æ—¶é—´å¤„ç†
 	int         iRet;
   int         index;
   for(index = 0; index <= MsgData.maxfd ; index++)
@@ -242,10 +242,10 @@ int MsgSendToAgentTypeOne(int iSockfd, char *Msg, int Msglen)
   return 0;
 }
 
-//°ÑÏûÏ¢×ª·¢¸øÆÕÍ¨×øÏ¯
+//æŠŠæ¶ˆæ¯è½¬å‘ç»™æ™®é€šåå¸­
 int MsgSendToAgentTypeTwo(int iSockfd, char *Msg, int Msglen, char *iAgentId)
 {
-	int         iTimeout   =   3;             //³¬Ê±Ê±¼ä´¦Àí
+	int         iTimeout   =   3;             //è¶…æ—¶æ—¶é—´å¤„ç†
 	int         iRet;
   int         index;
   if(iAgentId == NULL)
@@ -282,7 +282,7 @@ int MsgSendToAgentTypeTwo(int iSockfd, char *Msg, int Msglen, char *iAgentId)
   return 0;
 }
 
-//¾ÙÊÖÏûÏ¢´¦Àí
+//ä¸¾æ‰‹æ¶ˆæ¯å¤„ç†
 int HandleRaiseHandMsg(int iSockfd, char *inJson)
 {
 	int                     iRet                 = 0;
@@ -333,7 +333,7 @@ int HandleRaiseHandMsg(int iSockfd, char *inJson)
  		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], iRet,"CreateRaiseHandMsg Is Error");
  		return -1;
  	} 
- 	//¾ÙÊÖ´¦Àí£¬·¢¸øËùÓĞµÄ¿Í»§¶Ë
+ 	//ä¸¾æ‰‹å¤„ç†ï¼Œå‘ç»™æ‰€æœ‰çš„å®¢æˆ·ç«¯
 	iRet = MsgSendToAll(iSockfd, iAnswerJson, strlen(iAnswerJson));
 	if(iRet = 0)
 	{
@@ -342,26 +342,26 @@ int HandleRaiseHandMsg(int iSockfd, char *inJson)
 	return 0;
 }
 
-//ÏûÏ¢´¦ÀíÖĞĞÄ--¶ÔÒÑÁ¬½ÓµÄ¿Í»§¶ËµÄÊı¾İÊÕ·¢´¦Àí
+//æ¶ˆæ¯å¤„ç†ä¸­å¿ƒ--å¯¹å·²è¿æ¥çš„å®¢æˆ·ç«¯çš„æ•°æ®æ”¶å‘å¤„ç†
 void HandleTransMsg(int iSockfd, char *Msg, int Msglen)
 {	
 	int         index;							
-	int         iTimeout   =   3;             //³¬Ê±Ê±¼ä´¦Àí
+	int         iTimeout   =   3;             //è¶…æ—¶æ—¶é—´å¤„ç†
 	int         iRet;
-	char*       iEventType;                   //ÊÂ¼şÀàĞÍ 
+	char*       iEventType;                   //äº‹ä»¶ç±»å‹ 
 	char*       outExtJson;  
-	char        *cmdType;                     //cmdµÄÊÂ¼şÀàĞÍ 
-	char        *RaiseHandMsg;                //¾ÙÊÖÇëÇó
-	char        *SendMsg;                     //ÏûÏ¢·¢ËÍ
+	char        *cmdType;                     //cmdçš„äº‹ä»¶ç±»å‹ 
+	char        *RaiseHandMsg;                //ä¸¾æ‰‹è¯·æ±‚
+	char        *SendMsg;                     //æ¶ˆæ¯å‘é€
 	int         msgId;
 	char        *outData;
 	char*       iLoginData;
-	char        *Login_outData;               //µÇÂ¼Ó¦´ğÊı¾İ
+	char        *Login_outData;               //ç™»å½•åº”ç­”æ•°æ®
 	int         Login_outLenght;
 	
 	printf("Msg = %s\n", Msg);
 	
-	//»ñÈ¡ÏûÏ¢¶ÓÁĞID
+	//è·å–æ¶ˆæ¯é˜Ÿåˆ—ID
 	msgId = GetMsgQueue();
 	if(msgId < 0)
 	{
@@ -375,7 +375,7 @@ void HandleTransMsg(int iSockfd, char *Msg, int Msglen)
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], PARSEJSONERR,"cmdType Is NULL");
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], PARSEJSONERR,"%s\n", Msg);
 		
-		//´¦ÀíÏûÏ¢·Ö·¢ºÍ°ÑÏûÏ¢ÍÆµ½ÏûÏ¢¶ÓÁĞ
+		//å¤„ç†æ¶ˆæ¯åˆ†å‘å’ŒæŠŠæ¶ˆæ¯æ¨åˆ°æ¶ˆæ¯é˜Ÿåˆ—
 		iEventType = EveNameParse(Msg);
 		if(iEventType == NULL)
 		{
@@ -385,63 +385,63 @@ void HandleTransMsg(int iSockfd, char *Msg, int Msglen)
 		}
 		if(strcmp(iEventType, "stationstatelog")==0)
 		{
-			//·Ö»ú×´Ì¬Ã÷·Ö·¢  1
+			//åˆ†æœºçŠ¶æ€æ˜åˆ†å‘  1
 			iRet = MsgSendToAgentTypeOne(iSockfd, Msg, Msglen);
 			if(iRet == 0)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
 			}
-			//·Ö»ú×´Ì¬Ã÷Ï¸ÍÆµ½ÏûÏ¢¶ÓÁĞ
+			//åˆ†æœºçŠ¶æ€æ˜ç»†æ¨åˆ°æ¶ˆæ¯é˜Ÿåˆ—
 			SendQueueMsg(msgId,mainThread_Type,Msg);
 		}
 		else if(strcmp(iEventType, "agentsigninlog") == 0 || strcmp(iEventType, "agentsignoutlog") == 0)
 		{
-			//Ç©ÈëÇ©³öÃ÷Ï¸·Ö·¢  2
+			//ç­¾å…¥ç­¾å‡ºæ˜ç»†åˆ†å‘  2
 			iRet = MsgSendToAgentTypeOne(iSockfd, Msg, Msglen);
 			if(iRet == 0)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
 			}
-			//Ç©ÈëÇ©³öÃ÷Ï¸ÍÆµ½ÏûÏ¢¶ÓÁĞ
+			//ç­¾å…¥ç­¾å‡ºæ˜ç»†æ¨åˆ°æ¶ˆæ¯é˜Ÿåˆ—
 			SendQueueMsg(msgId,mainThread_Type,Msg);                     
 		}
 		else if(strcmp(iEventType, "vdncalllog") == 0)
 		{
-			//ºôÈëÍ¨»°Ã÷Ï¸·Ö·¢  3
+			//å‘¼å…¥é€šè¯æ˜ç»†åˆ†å‘  3
 			iRet = MsgSendToAgentTypeOne(iSockfd, Msg, Msglen);
 			if(iRet == 0)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
 			}
-			//ºôÈëÍ¨»°Ã÷Ï¸ÍÆµ½ÏûÏ¢¶ÓÁĞ
+			//å‘¼å…¥é€šè¯æ˜ç»†æ¨åˆ°æ¶ˆæ¯é˜Ÿåˆ—
 			SendQueueMsg(msgId,mainThread_Type,Msg);                             
 		}
 		else if(strcmp(iEventType, "stationcalllog") == 0)  
 		{ 
-			//ºô³öÍ¨»°Ã÷Ï¸·Ö·¢  4 
+			//å‘¼å‡ºé€šè¯æ˜ç»†åˆ†å‘  4 
 			iRet = MsgSendToAgentTypeOne(iSockfd, Msg, Msglen);
 			if(iRet == 0)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
 			}
 			
-			//ºô³öÍ¨»°Ã÷Ï¸ÍÆµ½ÏûÏ¢¶ÓÁĞ
+			//å‘¼å‡ºé€šè¯æ˜ç»†æ¨åˆ°æ¶ˆæ¯é˜Ÿåˆ—
 			SendQueueMsg(msgId,mainThread_Type,Msg);                          
 		}
 		else if(strcmp(iEventType, "agentstatelog") == 0)  
 		{
-			//×øÏ¯ÊµÊ±×´Ì¬·Ö·¢µ½ËùÓĞ¼à¿Ø×øÏ¯  5
+			//åå¸­å®æ—¶çŠ¶æ€åˆ†å‘åˆ°æ‰€æœ‰ç›‘æ§åå¸­  5
 			iRet = MsgSendToAgentTypeOne(iSockfd, Msg, Msglen);
 			if(iRet == 0)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
 			} 
 			
-			//×øÏ¯ÊµÊ±×´Ì¬ÍÆµ½ÏûÏ¢¶ÓÁĞ
+			//åå¸­å®æ—¶çŠ¶æ€æ¨åˆ°æ¶ˆæ¯é˜Ÿåˆ—
 			SendQueueMsg(msgId,mainThread_Type,Msg); 
 			
-			//×øÏ¯ÊµÊ±×´Ì¬·Ö·¢ÆÕÍ¨¼à¿Ø×øÏ¯
-			iRet = MsgSendToAgentTypeTwo(iSockfd, Msg, Msglen, "2001"); //2001Îª²âÊÔµÄ¼¼ÄÜ×éºÅÂë
+			//åå¸­å®æ—¶çŠ¶æ€åˆ†å‘æ™®é€šç›‘æ§åå¸­
+			iRet = MsgSendToAgentTypeTwo(iSockfd, Msg, Msglen, "2001"); //2001ä¸ºæµ‹è¯•çš„æŠ€èƒ½ç»„å·ç 
 			if(iRet == 0)
 			{
 				Ulane_WriteLog(__FILE__, __LINE__, LogLevel[2], 200,"%s\n", Msg);	
@@ -449,7 +449,7 @@ void HandleTransMsg(int iSockfd, char *Msg, int Msglen)
 		}
 		else if(strcmp(iEventType, "skillqueueinfo") == 0)  
 		{
-			//¼¼ÄÜ×éÅÅ¶Ó´¦Àí  6
+			//æŠ€èƒ½ç»„æ’é˜Ÿå¤„ç†  6
 			iRet = MsgSendToAgentTypeOne(iSockfd, Msg, Msglen);
 			if(iRet == 0)
 			{
@@ -505,7 +505,7 @@ void HandleTransMsg(int iSockfd, char *Msg, int Msglen)
 	}
 } 
 
-//´¦ÀíÏûÏ¢·¢ËÍ½Ó¿Ú
+//å¤„ç†æ¶ˆæ¯å‘é€æ¥å£
 int HandleSendMsg(int iSockfd, char *inJson)
 {
 	int                     iRet         = 0;
@@ -610,7 +610,7 @@ int HandleSendMsg(int iSockfd, char *inJson)
   return 0;	
 }
 
-//»ñÈ¡UnixÏÂµÄµ±Ç°Ê±¼ä
+//è·å–Unixä¸‹çš„å½“å‰æ—¶é—´
 char *Timer()
 {
 	time_t ctime = time(0);
@@ -625,7 +625,7 @@ char *Timer()
 	return retime;
 }
 
-//ÖÕ¶ËµÇÂ¼Í³Ò»´¦Àí
+//ç»ˆç«¯ç™»å½•ç»Ÿä¸€å¤„ç†
 int TerminalLogin(int iSockfd, char *inJson, char** outJson)
 {
 	int                     iRet   = 0;
@@ -645,7 +645,7 @@ int TerminalLogin(int iSockfd, char *inJson, char** outJson)
 	  outLen  = strlen(outData);
   	return outLen;
   }
-  MsgData.clients_info[iSockfd].agentId = iLogon[0].iAgentid;
+  strcpy(MsgData.clients_info[iSockfd].agentId, iLogon[0].iAgentid);
   if(strcmp(iLogon[0].iAgenttype, "agenttype_1") == 0)
   {
   	MsgData.clients_info[iSockfd].flag = 1;
@@ -671,11 +671,11 @@ int TerminalLogin(int iSockfd, char *inJson, char** outJson)
   return outLen;
 }
 
-//·Ö»ú×´Ì¬Ã÷Ï¸Èë¿â´¦Àí
+//åˆ†æœºçŠ¶æ€æ˜ç»†å…¥åº“å¤„ç†
 int StationStateLog(char *inJson, char** outJson)
 {
 	int                iRet          =   0;
-	int                jsonLength    =   0;               //jsonÄÚÊı×éµÄ³¤¶È
+	int                jsonLength    =   0;               //jsonå†…æ•°ç»„çš„é•¿åº¦
 	int                i             =   0;
 	ULANESTMT          sqlStmt;   
 	ULANEINT           iParamCount;
@@ -715,7 +715,7 @@ int StationStateLog(char *inJson, char** outJson)
   ULANELONG           CallDirectLength;
   ULANELONG           SplitLength;
  
-	//»ñÈ¡json´®ÖĞµÄÄÚÊı×éµÄ³¤¶È
+	//è·å–jsonä¸²ä¸­çš„å†…æ•°ç»„çš„é•¿åº¦
 	jsonLength = GetJsonArrayInnerLen(inJson);
 	if(jsonLength == -1)
 	{
@@ -723,7 +723,7 @@ int StationStateLog(char *inJson, char** outJson)
 		return -1;
 	}
 	
-	//json´®½âÎö
+	//jsonä¸²è§£æ
 	iRet = ExtJsonDecode(inJson, iStateLog);
 	if(iRet == -1)
 	{
@@ -731,7 +731,7 @@ int StationStateLog(char *inJson, char** outJson)
 		return -1;
 	}
 	
-	//³õÊ¼»¯Ô¤´¦Àí»·¾³¾ä±ú
+	//åˆå§‹åŒ–é¢„å¤„ç†ç¯å¢ƒå¥æŸ„
   sqlStmt = ULANE_StmtInit(iSql); 
 	if(sqlStmt == NULL)
 	{
@@ -739,7 +739,7 @@ int StationStateLog(char *inJson, char** outJson)
 	  return -1;
 	}
 	
-	//ÏòÔ¤´¦Àí»·¾³¾ä±úÌí¼Ó´ø(???)µÄsqlÓï¾ä
+	//å‘é¢„å¤„ç†ç¯å¢ƒå¥æŸ„æ·»åŠ å¸¦(???)çš„sqlè¯­å¥
 	if(ULANE_StmtPrepare(sqlStmt, INSERT_StationStateLog, strlen(INSERT_StationStateLog))) 
 	{
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "ULANE_StmtPrepare(), INSERT failed");
@@ -747,7 +747,7 @@ int StationStateLog(char *inJson, char** outJson)
 	}
 	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "prepare INSERT successful");
 
-	//¸¨ÖúĞÔº¯Êı»ñÈ¡Õ¾Î»¸¶¸öÊı
+	//è¾…åŠ©æ€§å‡½æ•°è·å–ç«™ä½ä»˜ä¸ªæ•°
 	iParamCount = ULANE_StmtParamCount(sqlStmt);		
 	if (iParamCount != 12)
 	{ 	
@@ -830,7 +830,7 @@ int StationStateLog(char *inJson, char** outJson)
 	iBind[11].is_null= 0;			 		         
 	iBind[11].length= &SplitLength;
 	 
-	//°Ñ¸³ÖµÒÔºóµÄÊı×é Ìí¼Óµ½Ô¤´¦Àí»·¾³¾ä±ú
+	//æŠŠèµ‹å€¼ä»¥åçš„æ•°ç»„ æ·»åŠ åˆ°é¢„å¤„ç†ç¯å¢ƒå¥æŸ„
 	if (ULANE_StmtBindParam(sqlStmt,iBind))
 	{ 
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4],  ULANE_StmtErrno(sqlStmt), "ULANE_StmtBindParam() failed");		
@@ -839,7 +839,7 @@ int StationStateLog(char *inJson, char** outJson)
 	
 	for(i = 0; i < jsonLength; i++)
 	{
-		//²úÉúuuidµÄº¯Êı
+		//äº§ç”Ÿuuidçš„å‡½æ•°
 	  uuid_generate(iUuid);
 	  uuid_unparse(iUuid, uuidStr);
 		
@@ -889,7 +889,7 @@ int StationStateLog(char *inJson, char** outJson)
 		strncpy(Split, iStateLog[i].iSplit, STRING_SIZE); 					
 		SplitLength= strlen(Split);	
 		
-		//Ö´ĞĞÒÑ¾­ÍêÈ«ÌîºÃÖµµÄSQLÓï¾ä 
+		//æ‰§è¡Œå·²ç»å®Œå…¨å¡«å¥½å€¼çš„SQLè¯­å¥ 
 		if (ULANE_StmtExecute(sqlStmt)) 
 		{ 
 			Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "ULANE_StmtExecute(), 1 failed");			
@@ -913,11 +913,11 @@ int StationStateLog(char *inJson, char** outJson)
 	*outJson = inJson;
 }
 
-//Ç©ÈëÇ©³öÃ÷Ï¸Èë¿â´¦Àí
+//ç­¾å…¥ç­¾å‡ºæ˜ç»†å…¥åº“å¤„ç†
 int AgentSignInLog(char *inJson, char** outJson)
 {
 	int                iRet          =   0;
-	int                jsonLength    =   0;               //jsonÄÚÊı×éµÄ³¤¶È
+	int                jsonLength    =   0;               //jsonå†…æ•°ç»„çš„é•¿åº¦
 	int                i             =   0;
 	ULANESTMT          sqlStmt;   
 	ULANEINT           iParamCount;
@@ -949,7 +949,7 @@ int AgentSignInLog(char *inJson, char** outJson)
   ULANELONG          CDTimeLength;
   ULANELONG          From_STRLength;
   
-  //»ñÈ¡json´®ÖĞµÄÄÚÊı×éµÄ³¤¶È
+  //è·å–jsonä¸²ä¸­çš„å†…æ•°ç»„çš„é•¿åº¦
 	jsonLength = GetJsonArrayInnerLen(inJson);
 	if(jsonLength == -1)
 	{
@@ -957,7 +957,7 @@ int AgentSignInLog(char *inJson, char** outJson)
 		return -1;
 	}
 	
-	//json´®½âÎö
+	//jsonä¸²è§£æ
 	iRet = SignInOutJsonDecode(inJson, iSignInOutLog);
 	if(iRet == -1)
 	{
@@ -965,7 +965,7 @@ int AgentSignInLog(char *inJson, char** outJson)
 		return -1;
 	}
 	
-	//³õÊ¼»¯Ô¤´¦Àí»·¾³¾ä±ú
+	//åˆå§‹åŒ–é¢„å¤„ç†ç¯å¢ƒå¥æŸ„
   sqlStmt = ULANE_StmtInit(iSql); 
 	if(sqlStmt == NULL)
 	{
@@ -973,7 +973,7 @@ int AgentSignInLog(char *inJson, char** outJson)
 	  return -1;
 	}
 	
-	//ÏòÔ¤´¦Àí»·¾³¾ä±úÌí¼Ó´ø(???)µÄsqlÓï¾ä
+	//å‘é¢„å¤„ç†ç¯å¢ƒå¥æŸ„æ·»åŠ å¸¦(???)çš„sqlè¯­å¥
 	if(ULANE_StmtPrepare(sqlStmt, INSERT_AgentSignOutInLog, strlen(INSERT_AgentSignOutInLog))) 
 	{
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "ULANE_StmtPrepare(), INSERT failed");
@@ -981,7 +981,7 @@ int AgentSignInLog(char *inJson, char** outJson)
 	}
 	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "prepare INSERT successful");
 
-	//¸¨ÖúĞÔº¯Êı»ñÈ¡Õ¾Î»¸¶¸öÊı
+	//è¾…åŠ©æ€§å‡½æ•°è·å–ç«™ä½ä»˜ä¸ªæ•°
 	iParamCount = ULANE_StmtParamCount(sqlStmt);		
 	if (iParamCount != 8)
 	{ 	
@@ -1047,7 +1047,7 @@ int AgentSignInLog(char *inJson, char** outJson)
 	iBind[7].is_null= 0;			 		         
 	iBind[7].length= &From_STRLength;
 	
-	//°Ñ¸³ÖµÒÔºóµÄÊı×é Ìí¼Óµ½Ô¤´¦Àí»·¾³¾ä±ú
+	//æŠŠèµ‹å€¼ä»¥åçš„æ•°ç»„ æ·»åŠ åˆ°é¢„å¤„ç†ç¯å¢ƒå¥æŸ„
 	if (ULANE_StmtBindParam(sqlStmt,iBind))
 	{ 
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4],  ULANE_StmtErrno(sqlStmt), "ULANE_StmtBindParam() failed");		
@@ -1056,7 +1056,7 @@ int AgentSignInLog(char *inJson, char** outJson)
 	
 	for(i = 0; i < jsonLength; i++)
 	{
-		//²úÉúuuidµÄº¯Êı
+		//äº§ç”Ÿuuidçš„å‡½æ•°
 	  uuid_generate(iUuid);
 	  uuid_unparse(iUuid, uuidStr);
 		
@@ -1094,7 +1094,7 @@ int AgentSignInLog(char *inJson, char** outJson)
 		strncpy(From_STR, iSignInOutLog[i].iFrom_STR, STRING_SIZE); 					
 		From_STRLength= strlen(From_STR);	
 		
-		//Ö´ĞĞÒÑ¾­ÍêÈ«ÌîºÃÖµµÄSQLÓï¾ä 
+		//æ‰§è¡Œå·²ç»å®Œå…¨å¡«å¥½å€¼çš„SQLè¯­å¥ 
 		if (ULANE_StmtExecute(sqlStmt)) 
 		{ 
 			Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "ULANE_StmtExecute(), 1 failed");			
@@ -1118,11 +1118,11 @@ int AgentSignInLog(char *inJson, char** outJson)
 	*outJson = inJson;
 }
 
-//ºôÈëÍ¨»°Ã÷Ï¸Èë¿â´¦Àí
+//å‘¼å…¥é€šè¯æ˜ç»†å…¥åº“å¤„ç†
 int VdnCallLog(char *inJson, char** outJson)
 {
 	int                iRet          =   0;
-	int                jsonLength    =   0;               //jsonÄÚÊı×éµÄ³¤¶È
+	int                jsonLength    =   0;               //jsonå†…æ•°ç»„çš„é•¿åº¦
 	int                i             =   0;
 	ULANESTMT          sqlStmt;   
 	ULANEINT           iParamCount;
@@ -1187,7 +1187,7 @@ int VdnCallLog(char *inJson, char** outJson)
 	ULANELONG					 ConferenceCountLength; 
 	ULANELONG					 CRT_DTLength;
 
-  //»ñÈ¡json´®ÖĞµÄÄÚÊı×éµÄ³¤¶È
+  //è·å–jsonä¸²ä¸­çš„å†…æ•°ç»„çš„é•¿åº¦
 	jsonLength = GetJsonArrayInnerLen(inJson);
 	if(jsonLength == -1)
 	{
@@ -1195,7 +1195,7 @@ int VdnCallLog(char *inJson, char** outJson)
 		return -1;
 	}
 	
-	//json´®½âÎö
+	//jsonä¸²è§£æ
 	iRet = TelinJsonDecode(inJson, iVDNCallLog);
 	if(iRet == -1)
 	{
@@ -1203,7 +1203,7 @@ int VdnCallLog(char *inJson, char** outJson)
 		return -1;
 	}
 	
-	//³õÊ¼»¯Ô¤´¦Àí»·¾³¾ä±ú
+	//åˆå§‹åŒ–é¢„å¤„ç†ç¯å¢ƒå¥æŸ„
   sqlStmt = ULANE_StmtInit(iSql); 
 	if(sqlStmt == NULL)
 	{
@@ -1211,7 +1211,7 @@ int VdnCallLog(char *inJson, char** outJson)
 	  return -1;
 	}
 	
-	//ÏòÔ¤´¦Àí»·¾³¾ä±úÌí¼Ó´ø(???)µÄsqlÓï¾ä
+	//å‘é¢„å¤„ç†ç¯å¢ƒå¥æŸ„æ·»åŠ å¸¦(???)çš„sqlè¯­å¥
 	if(ULANE_StmtPrepare(sqlStmt, INSERT_VdnCallLog, strlen(INSERT_VdnCallLog))) 
 	{
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "ULANE_StmtPrepare(), INSERT failed");
@@ -1219,7 +1219,7 @@ int VdnCallLog(char *inJson, char** outJson)
 	}
 	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "prepare INSERT successful");
 
-	//¸¨ÖúĞÔº¯Êı»ñÈ¡Õ¾Î»¸¶¸öÊı
+	//è¾…åŠ©æ€§å‡½æ•°è·å–ç«™ä½ä»˜ä¸ªæ•°
 	iParamCount = ULANE_StmtParamCount(sqlStmt);		
 	if (iParamCount != 25)
 	{ 	
@@ -1403,7 +1403,7 @@ int VdnCallLog(char *inJson, char** outJson)
 	iBind[24].is_null= 0;			 		         
 	iBind[24].length= &From_STRLength;
 	
-	//°Ñ¸³ÖµÒÔºóµÄÊı×é Ìí¼Óµ½Ô¤´¦Àí»·¾³¾ä±ú
+	//æŠŠèµ‹å€¼ä»¥åçš„æ•°ç»„ æ·»åŠ åˆ°é¢„å¤„ç†ç¯å¢ƒå¥æŸ„
 	if (ULANE_StmtBindParam(sqlStmt,iBind))
 	{ 
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4],  ULANE_StmtErrno(sqlStmt), "ULANE_StmtBindParam() failed");		
@@ -1412,7 +1412,7 @@ int VdnCallLog(char *inJson, char** outJson)
 	
 	for(i = 0; i < jsonLength; i++)
 	{
-		//²úÉúuuidµÄº¯Êı
+		//äº§ç”Ÿuuidçš„å‡½æ•°
 	  uuid_generate(iUuid);
 	  uuid_unparse(iUuid, uuidStr);
 		
@@ -1507,7 +1507,7 @@ int VdnCallLog(char *inJson, char** outJson)
 		strncpy(From_STR, iVDNCallLog[i].iFrom_STR, STRING_SIZE); 					
 		From_STRLength= strlen(From_STR);	
 		
-		//Ö´ĞĞÒÑ¾­ÍêÈ«ÌîºÃÖµµÄSQLÓï¾ä
+		//æ‰§è¡Œå·²ç»å®Œå…¨å¡«å¥½å€¼çš„SQLè¯­å¥
 		if (ULANE_StmtExecute(sqlStmt)) 
 		{ 
 			Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "ULANE_StmtExecute(), 1 failed");			
@@ -1531,11 +1531,11 @@ int VdnCallLog(char *inJson, char** outJson)
 	*outJson = inJson;
 }
 
-//ºô³öÍ¨»°Ã÷Ï¸Èë¿â´¦Àí
+//å‘¼å‡ºé€šè¯æ˜ç»†å…¥åº“å¤„ç†
 int StationCallLog(char *inJson, char** outJson)
 {
 	int                iRet          =   0;
-	int                jsonLength    =   0;               //jsonÄÚÊı×éµÄ³¤¶È
+	int                jsonLength    =   0;               //jsonå†…æ•°ç»„çš„é•¿åº¦
 	int                i             =   0;
 	ULANESTMT          sqlStmt;   
 	ULANEINT           iParamCount;
@@ -1604,7 +1604,7 @@ int StationCallLog(char *inJson, char** outJson)
 	ULANELONG          From_STRLength;
 	ULANELONG					 CRT_DTLength;
 
-  //»ñÈ¡json´®ÖĞµÄÄÚÊı×éµÄ³¤¶È
+  //è·å–jsonä¸²ä¸­çš„å†…æ•°ç»„çš„é•¿åº¦
 	jsonLength = GetJsonArrayInnerLen(inJson);
 	if(jsonLength == -1)
 	{
@@ -1612,7 +1612,7 @@ int StationCallLog(char *inJson, char** outJson)
 		return -1;
 	}
 	
-	//json´®½âÎö
+	//jsonä¸²è§£æ
 	iRet = TeloutExtJsonDecode(inJson, iStationCallLog);
 	if(iRet == -1)
 	{
@@ -1620,7 +1620,7 @@ int StationCallLog(char *inJson, char** outJson)
 		return -1;
 	}
 	
-	//³õÊ¼»¯Ô¤´¦Àí»·¾³¾ä±ú
+	//åˆå§‹åŒ–é¢„å¤„ç†ç¯å¢ƒå¥æŸ„
   sqlStmt = ULANE_StmtInit(iSql); 
 	if(sqlStmt == NULL)
 	{
@@ -1628,7 +1628,7 @@ int StationCallLog(char *inJson, char** outJson)
 	  return -1;
 	}
 	
-	//ÏòÔ¤´¦Àí»·¾³¾ä±úÌí¼Ó´ø(???)µÄsqlÓï¾ä
+	//å‘é¢„å¤„ç†ç¯å¢ƒå¥æŸ„æ·»åŠ å¸¦(???)çš„sqlè¯­å¥
 	if(ULANE_StmtPrepare(sqlStmt, INSERT_StationCallLog, strlen(INSERT_StationCallLog))) 
 	{
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "ULANE_StmtPrepare(), INSERT failed");
@@ -1636,7 +1636,7 @@ int StationCallLog(char *inJson, char** outJson)
 	}
 	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "prepare INSERT successful");
 
-	//¸¨ÖúĞÔº¯Êı»ñÈ¡Õ¾Î»¸¶¸öÊı
+	//è¾…åŠ©æ€§å‡½æ•°è·å–ç«™ä½ä»˜ä¸ªæ•°
 	iParamCount = ULANE_StmtParamCount(sqlStmt);		
 	if (iParamCount != 25)
 	{ 	
@@ -1821,7 +1821,7 @@ int StationCallLog(char *inJson, char** outJson)
 	iBind[24].is_null= &CRT_DTIsNull;			 		         
 	iBind[24].length= &CRT_DTLength;
 	
-	//°Ñ¸³ÖµÒÔºóµÄÊı×é Ìí¼Óµ½Ô¤´¦Àí»·¾³¾ä±ú
+	//æŠŠèµ‹å€¼ä»¥åçš„æ•°ç»„ æ·»åŠ åˆ°é¢„å¤„ç†ç¯å¢ƒå¥æŸ„
 	if (ULANE_StmtBindParam(sqlStmt,iBind))
 	{ 
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4],  ULANE_StmtErrno(sqlStmt), "ULANE_StmtBindParam() failed");		
@@ -1830,7 +1830,7 @@ int StationCallLog(char *inJson, char** outJson)
 	
 	for(i = 0; i < jsonLength; i++)
 	{
-		//²úÉúuuidµÄº¯Êı
+		//äº§ç”Ÿuuidçš„å‡½æ•°
 	  uuid_generate(iUuid);
 	  uuid_unparse(iUuid, uuidStr);
 		
@@ -1923,7 +1923,7 @@ int StationCallLog(char *inJson, char** outJson)
 		//25
 		CRT_DTIsNull = 1;		     
 		
-		//Ö´ĞĞÒÑ¾­ÍêÈ«ÌîºÃÖµµÄSQLÓï¾ä
+		//æ‰§è¡Œå·²ç»å®Œå…¨å¡«å¥½å€¼çš„SQLè¯­å¥
 		if (ULANE_StmtExecute(sqlStmt)) 
 		{ 
 			Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "ULANE_StmtExecute(), 1 failed");			
@@ -1947,11 +1947,11 @@ int StationCallLog(char *inJson, char** outJson)
 	*outJson = inJson;
 }
 
-//×øÏ¯ÊµÊ±×´Ì¬É¾³ıºÍÈë¿â´¦Àí
+//åå¸­å®æ—¶çŠ¶æ€åˆ é™¤å’Œå…¥åº“å¤„ç†
 int AgentStateLog(char *inJson, char** outJson)
 {
 	int                iRet          =   0;
-	int                jsonLength    =   0;               //jsonÄÚÊı×éµÄ³¤¶È
+	int                jsonLength    =   0;               //jsonå†…æ•°ç»„çš„é•¿åº¦
 	int                i             =   0;
 	ULANESTMT          sqlStmt;   
 	ULANEINT           iParamCount;
@@ -1996,7 +1996,7 @@ int AgentStateLog(char *inJson, char** outJson)
   ULANELONG          SplitLength;
   ULANELONG          CRT_DTLength;
    
-  //»ñÈ¡json´®ÖĞµÄÄÚÊı×éµÄ³¤¶È
+  //è·å–jsonä¸²ä¸­çš„å†…æ•°ç»„çš„é•¿åº¦
 	jsonLength = GetJsonArrayInnerLen(inJson);
 	if(jsonLength == -1)
 	{
@@ -2004,7 +2004,7 @@ int AgentStateLog(char *inJson, char** outJson)
 		return -1;
 	}
 	
-	//json´®½âÎö
+	//jsonä¸²è§£æ
 	iRet = AgentStateLogJsonDecode(inJson, iAgentStateLog);
 	if(iRet == -1)
 	{
@@ -2012,14 +2012,14 @@ int AgentStateLog(char *inJson, char** outJson)
 		return -1;
 	}
 	
-	//É¾³ıÉÏÒ»´Î²åÈëµÄÊı¾İ
+	//åˆ é™¤ä¸Šä¸€æ¬¡æ’å…¥çš„æ•°æ®
 	if (UlaneDB_ExecSql(iSql, DELETE_AgentStateLog))		
 	{
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt),"delete data from m_state table failed");
 	  return -1;
 	}
 	
-	//³õÊ¼»¯Ô¤´¦Àí»·¾³¾ä±ú
+	//åˆå§‹åŒ–é¢„å¤„ç†ç¯å¢ƒå¥æŸ„
   sqlStmt = ULANE_StmtInit(iSql); 
 	if(sqlStmt == NULL)
 	{
@@ -2027,7 +2027,7 @@ int AgentStateLog(char *inJson, char** outJson)
 	  return -1;
 	}
 	
-	//ÏòÔ¤´¦Àí»·¾³¾ä±úÌí¼Ó´ø(???)µÄsqlÓï¾ä
+	//å‘é¢„å¤„ç†ç¯å¢ƒå¥æŸ„æ·»åŠ å¸¦(???)çš„sqlè¯­å¥
 	if(ULANE_StmtPrepare(sqlStmt, INSERT_AgentStateLog, strlen(INSERT_AgentStateLog))) 
 	{
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "ULANE_StmtPrepare(), INSERT failed");
@@ -2035,7 +2035,7 @@ int AgentStateLog(char *inJson, char** outJson)
 	}
 	Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "prepare INSERT successful");
 
-	//¸¨ÖúĞÔº¯Êı»ñÈ¡Õ¾Î»¸¶¸öÊı
+	//è¾…åŠ©æ€§å‡½æ•°è·å–ç«™ä½ä»˜ä¸ªæ•°
 	iParamCount = ULANE_StmtParamCount(sqlStmt);		
 	if (iParamCount != 14)
 	{ 	
@@ -2130,7 +2130,7 @@ int AgentStateLog(char *inJson, char** outJson)
 	iBind[13].is_null= &CRT_DTIsNull;			 		         
 	iBind[13].length= 0;
 	
-	//°Ñ¸³ÖµÒÔºóµÄÊı×é Ìí¼Óµ½Ô¤´¦Àí»·¾³¾ä±ú
+	//æŠŠèµ‹å€¼ä»¥åçš„æ•°ç»„ æ·»åŠ åˆ°é¢„å¤„ç†ç¯å¢ƒå¥æŸ„
 	if (ULANE_StmtBindParam(sqlStmt,iBind))
 	{ 
 		Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4],  ULANE_StmtErrno(sqlStmt), "ULANE_StmtBindParam() failed");		
@@ -2139,7 +2139,7 @@ int AgentStateLog(char *inJson, char** outJson)
 	
 	for(i = 0; i < jsonLength; i++)
 	{
-		//²úÉúuuidµÄº¯Êı
+		//äº§ç”Ÿuuidçš„å‡½æ•°
 	  uuid_generate(iUuid);
 	  uuid_unparse(iUuid, uuidStr);
 		
@@ -2195,7 +2195,7 @@ int AgentStateLog(char *inJson, char** outJson)
 		
 		//14
 		CRT_DTIsNull = 1;
-		//Ö´ĞĞÒÑ¾­ÍêÈ«ÌîºÃÖµµÄSQLÓï¾ä 
+		//æ‰§è¡Œå·²ç»å®Œå…¨å¡«å¥½å€¼çš„SQLè¯­å¥ 
 		if (ULANE_StmtExecute(sqlStmt)) 
 		{ 
 			Ulane_WriteLog(__FILE__, __LINE__, LogLevel[4], ULANE_StmtErrno(sqlStmt), "ULANE_StmtExecute(), 1 failed");			
@@ -2220,7 +2220,7 @@ int AgentStateLog(char *inJson, char** outJson)
 	return 0;	
 }
 
-//¼¼ÄÜ×éÊµÊ±ÅÅ¶ÓĞÅÏ¢Í³Ò»´¦Àí
+//æŠ€èƒ½ç»„å®æ—¶æ’é˜Ÿä¿¡æ¯ç»Ÿä¸€å¤„ç†
 int SkillQueueInfo(char *inJson, char** outJson)
 {
 	return 0;
